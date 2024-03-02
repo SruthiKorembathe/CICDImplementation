@@ -49,8 +49,8 @@ Throughout the template, I'll call out _notes_ and _tips_ like this:
 > This lets you _use VSCode_ for editing if you prefer that over the web UI in
 > GitHub.
 >
-> For example <https://github.com/ExxonMobil/pizza-pie-api.wiki> is the
-> repo URL of the wiki for this file.
+> For example <https://github.com/your-github-id-or-org/pizza-pie-api.wiki> is
+> the repo URL of the wiki for this file.
 > **Note** the ".wiki" at the end of the code repo URL which tells GitHub that
 > you are editing documentation and not the code.
 >

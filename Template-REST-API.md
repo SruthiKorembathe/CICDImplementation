@@ -58,8 +58,8 @@ Throughout the template, I'll call out _notes_ and _tips_ like this:
 > This lets you _use VSCode_ for editing if you prefer that over the web UI in
 > GitHub.
 >
-> For example <https://github.com/ExxonMobil/pizza-pie-api.wiki> is the
-> repo URL of the wiki for this file.
+> For example <https://github.com/your-github-id-or-org/pizza-pie-api.wiki> is
+> the repo URL of the wiki for this file.
 > **Note** the ".wiki" at the end of the code repo URL which tells GitHub that
 > you are editing documentation and not the code.
 >
@@ -367,7 +367,7 @@ See <https://dev.azure.com/EM-UIT/Portfolio-EMTEC/_wiki/wikis/Portfolio-EMTEC.wi
 > the simplest approaches: include the version at the start of the URL path.
 > You may find that you will never support both older and newer clients,
 > and versioning would not matter.
-> However, predicting the future is tough (why ExxonMobil pays Economists
+> However, predicting the future is tough (why your-github-id-or-org pays Economists
 > well), so it usually pays off to prepare for versioning from the start of
 > an API.
 
