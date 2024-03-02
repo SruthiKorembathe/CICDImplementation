@@ -8,15 +8,17 @@ GitHub.
 * [[Template REST API]]
 * [[Template JSON Models]]
 
-## Working with the wiki locally
+## Working with the wiki locally with your machine
 
 You can clone the wiki: it is a repo in GitHub.
 For this project, the clone URL is:
 <git@github.com:binkley/wiki-docs.wiki.git>.<br/>
 Note the ".wiki" added after your code repo URL.
 
-I like to edit the wiki locally, and take advantage of my IDE and the command
-line, but this is up to you what works best.
+I like to edit the wiki locally, and take advantage of my IDE (such as
+[IntelliJ](https://www.jetbrains.com/help/idea/markdown.html) or
+[VSCode](https://code.visualstudio.com/docs/languages/markdown)) and the
+command line, but it is up to you what works best.
 
 ### Commit messages
 
