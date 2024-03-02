@@ -2,19 +2,21 @@
 
 _Why documentation like this?_
 
-This pulls togeter conversations you have with consumers of your API and JSON.
+This page pulls togeter conversations you have with consumers of your API and
+JSON.
 If you have _one consumer only_, it may not be worth effort to document;
 however, you may find that you get a later second, or third consumer, and
 then you repeat the same conversations.
 Your documentation builds _informed consumers_ who skip the easy questions,
 and ask more interesting ones.
 
-This template uses for examples only these portions:
+This template uses a limited API that is part of a larger one:
 
 * Toppings
 
-The full API has more collections of endpoints, for example, for pies,
-but I want this template to focus on one thing.
+A full API has more collections of endpoints, for example _pies_ and not
+just _toppings_, but I want this template to focus on one thing, and you can
+add more.
 
 To use the template in your data product documentation, you will:
 - Remove this _Instructions_ section after you are done with it.
@@ -73,6 +75,10 @@ own API consumers, especially if an endpoint or set of endpoints with
 non-obvious behavior or side effects, and any helpful remarks that should be
 called out.
 
+(What are "toppings" and "pies" and who is "Pizza"?
+These templates are about pizza pies and the toppings on them.
+I didn't tell you that up front, but you are clever and will figure it out.)
+
 ----
 
 * [Toppings](#toppings)
@@ -80,20 +86,24 @@ called out.
 * [Response shapes](#response-shapes)
 
 > [!NOTE]
-> "Toppings" is the main API for the documentation.<br>
+> "Toppings" is the main API for this template documentation.<br>
 > "URL format and versioning" is helpful to give API consumers an overall
 > picture of what your API paths look like.<br>
 > "Response shapes" talks about your success and failure responses.
+> I don't show the APIs for Pizza or pies.
 
 > [!TIP]
 > It is best to start your documentation page with curated internal links that
-> help folks jump quickly to those parts of your API that interests them.
+> help folks jump quickly to those parts of your API that interests them (such
+> as [Toppings](#toppings) later in this page).
 > This helps with navigation.
-> Another style is with sentences rather than bullet lists, such as:
->
+
+> Another style is with sentences rather than bullet lists, such as:<br>
 > _Jump to [Toppings](#toppings)._<br>
 > _Jump to [URL format and versioning](#url-format-and-versioning)._<br>
-> _Jump to [Success and failure responses](#response-shapes)_.
+> _Jump to [Success and failure responses](#response-shapes)_.<br>
+> This is up to you to pick a good style at the top of your page than best
+> helps readers to quickly find what they want.
 
 ## Understanding this page
 
