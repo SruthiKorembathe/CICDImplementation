@@ -17,6 +17,9 @@ content, and edit as needed:
 * [[Template REST API]]
 * [[Template JSON Models]]
 
+You will rename these to remove the "Template" prefixes, and can provide your
+readers with "REST API" and "JSON Models" wiki documentation pages.
+
 ### Diagramming your architecture
 
 ## Working with the wiki locally on your machine
