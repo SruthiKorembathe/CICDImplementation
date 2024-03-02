@@ -7,7 +7,7 @@ If your GitHub project does not yet have a wiki, go to the "Wiki" option in
 the GitHub UI for your project (it appears in the top navigation bar) and
 create the default first page.
 
-## Sample pages
+## Sample wiki pages
 
 ### Documenting your REST API calls
 
