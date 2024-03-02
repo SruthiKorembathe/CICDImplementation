@@ -5,3 +5,6 @@ GitHub.
 
 Note the `_Sidebar.md` file if you customize the right-hand bar in GitHub's
 wiki pages, and clone the wiki.
+
+![image](https://github.com/binkley/wiki-docs/assets/186421/decb1b18-0318-44d2-bb39-d48c9aa8a570)
+
