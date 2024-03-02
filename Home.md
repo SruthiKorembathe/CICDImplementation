@@ -49,15 +49,18 @@ And you can always give a meaningful commit message when working locally!
 
 I add images by editing with the GitHub UI for the wiki and pasting.
 The UI automatically uploads the image, and inserts a link for you.
-I am unsure how to do this locally with the cloned repo.
+
+> [!NOTE]
+> I am unsure how to do this locally with the cloned repo.
+> The "assets" (image) are not part of cloning the wiki.
 
 ## The right-hand navigation sidebar
 
-When you edit the Sidebar in the UI, use the crayon icon:<br/>
+When you edit the Sidebar in the GitHub UI, use the "crayon" icon:<br/>
 ![image](https://github.com/binkley/wiki-docs/assets/186421/9e4c088f-3aef-42ca-b137-e769d65a0872)
 
-If you customize the sidebar, you can still find all pages&mdash;even those
-you did not list:<br/>
+If you customize the sidebar, readers can still find all pages&mdash;even
+those you did not list:<br/>
 ![image](https://github.com/binkley/wiki-docs/assets/186421/decb1b18-0318-44d2-bb39-d48c9aa8a570)
 
-Locally edit the `_Sidebar.md` file in your repo clone if you customize the sidebar.
+Locally you can edit the `_Sidebar.md` file to change what is shown in the UI.
