@@ -53,7 +53,7 @@ The UI automatically uploads the image, and inserts a link for you.
 
 > [!NOTE]
 > I am unsure how to do this locally with the cloned repo.
-> The "assets" (image) are not part of cloning the wiki.
+> The "assets" (images) are not part of cloning the wiki.
 
 ## The right-hand navigation sidebar
 
