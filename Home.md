@@ -8,6 +8,14 @@ GitHub.
 * [[Template REST API]]
 * [[Template JSON Models]]
 
+## Working with the wiki locally
+
+You can clone the wiki: it is a repo in GitHub.
+
+When you edit in the GitHub UI, commit message look like:
+
+> Updated Home (markdown)
+
 ## Adding images and screenshots
 
 I add images by editing with the GitHub UI for the wiki and pasting.
