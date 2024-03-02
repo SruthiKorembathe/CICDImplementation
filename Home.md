@@ -8,13 +8,18 @@ GitHub.
 * [[Template REST API]]
 * [[Template JSON Models]]
 
+## Adding images and screenshots
+
+I add images by editing with the GitHub UI for the wiki and pasting.
+The UI automatically uploads the image, and inserts a link for you.
+I am unsure how to do this locally with the cloned repo.
+
 ## The right-hand navigation sidebar
 
-Note the `_Sidebar.md` file if you customize the right-hand bar in GitHub's
-wiki pages, and clone the wiki.
-(I added the below image by editing with the GitHub UI for the wiki, and
-pasting.
-It automatically uploaded the image, and inserted a link to the uploaded
-image.)
+When you edit the Sidebar in the UI, use the crayon icon:<br/>
+![image](https://github.com/binkley/wiki-docs/assets/186421/9e4c088f-3aef-42ca-b137-e769d65a0872)
 
+If you customize the sidebar, you can still find all pages even those you did not list:<br/>
 ![image](https://github.com/binkley/wiki-docs/assets/186421/decb1b18-0318-44d2-bb39-d48c9aa8a570)
+
+Locally edit the `_Sidebar.md` file in your repo clone if you customize the sidebar.
