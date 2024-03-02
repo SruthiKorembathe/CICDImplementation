@@ -43,7 +43,8 @@ When you edit in the GitHub UI, the default commit message look like:
 You can give a commit message in the UI at the bottom of the page:<br/>
 ![image](https://github.com/binkley/wiki-docs/assets/186421/e6ec089f-cc8e-4ab6-843a-a2daeacf41fa)
 
-And you can always give a meaningful commit message when working locally!
+And you can always give a meaningful commit message when working locally with
+`git commit -m <your message>` (and then pushing your change).
 
 ## Adding images and screenshots
 
