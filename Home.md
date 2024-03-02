@@ -19,7 +19,8 @@ I am unsure how to do this locally with the cloned repo.
 When you edit the Sidebar in the UI, use the crayon icon:<br/>
 ![image](https://github.com/binkley/wiki-docs/assets/186421/9e4c088f-3aef-42ca-b137-e769d65a0872)
 
-If you customize the sidebar, you can still find all pages even those you did not list:<br/>
+If you customize the sidebar, you can still find all pages&mdash;even those
+you did not list:<br/>
 ![image](https://github.com/binkley/wiki-docs/assets/186421/decb1b18-0318-44d2-bb39-d48c9aa8a570)
 
 Locally edit the `_Sidebar.md` file in your repo clone if you customize the sidebar.
