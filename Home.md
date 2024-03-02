@@ -11,13 +11,23 @@ GitHub.
 ## Working with the wiki locally
 
 You can clone the wiki: it is a repo in GitHub.
+For this project, the clone URL is:
+<git@github.com:binkley/wiki-docs.wiki.git>.<br/>
+Note the ".wiki" added after your code repo URL.
+
+I like to edit the wiki locally, and take advantage of my IDE and the command
+line, but this is up to you what works best.
+
+### Commit messages
 
 When you edit in the GitHub UI, the default commit message look like:
 
 > Updated Home (markdown)
 
-You can give a commit message in the UI with:<br/>
+You can give a commit message in the UI at the bottom of the page:<br/>
 ![image](https://github.com/binkley/wiki-docs/assets/186421/e6ec089f-cc8e-4ab6-843a-a2daeacf41fa)
+
+And you can always give a meaningful commit message when working locally!
 
 ## Adding images and screenshots
 
