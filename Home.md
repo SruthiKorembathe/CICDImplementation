@@ -12,9 +12,12 @@ GitHub.
 
 You can clone the wiki: it is a repo in GitHub.
 
-When you edit in the GitHub UI, commit message look like:
+When you edit in the GitHub UI, the default commit message look like:
 
 > Updated Home (markdown)
+
+You can give a commit message in the UI with:<br/>
+![image](https://github.com/binkley/wiki-docs/assets/186421/e6ec089f-cc8e-4ab6-843a-a2daeacf41fa)
 
 ## Adding images and screenshots
 
