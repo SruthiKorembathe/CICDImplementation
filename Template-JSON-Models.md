@@ -72,23 +72,20 @@ side effects, and any helpful remarks that should be called out.
 > comments and is visually the same when rendered.
 
 ----
-
 You will see JSON for Pizza in various contexts:
 
 | JSON type | Context | Side effects | Impacts PSA dashboard |
 |-----------|---------|--------------|-----------------------|
-| [Pie](#pies) | Responses to calls for that alter toppings | All changes to pie context publish pie JSON to Service Bus.<br>Updates the `PIES` table in Snowflake, and views update | Yes |
-| [Toppings](#toppings)<br>Each payload is for a specific topping type<br>(Or for DELETE is simply the URL) | Integrations post to Pizza API REST endpoint to change a specific topping. Pizza UI uses the same REST calls | All changes to pie context publish pie JSON to Service Bus.<br>Updates the affected "topping" tables in Snowflake (Onion, etc), and views update | Yes |
+| [Pie](#pies) | Responses to calls for that alter toppings | All changes to pie context publish pie JSON to your messaging system.<br>Updates the `PIES` table in a reporting database, and your UI views update | Yes |
+| [Toppings](#toppings)<br>Each payload is for a specific topping type<br>(Or for DELETE is simply the URL) | Integrations post to Pizza API REST endpoint to change a specific topping. Pizza UI uses the same REST calls | All changes to pie context publish pie JSON to your messaging system.<br>Updates the affected "topping" tables in your reporting database (Onion, etc), and views update | Yes |
 
 > [!NOTE]
 > This table is an upfront way of setting expectations for your API consumers,
 > and helps them jump to information quickly.
 
 * [Toppings](#toppings) &mdash; Integrations post these to the Pizza API to
-   change toppings. These are published back through Service Bus, and seen by
-   all integrations and Snowflake &larr; **Integrations send these to the
-   Pizza API to manage toppings** (Onions team); Pizza saves these to
-   Snowflake tables
+   change toppings. These are published back through your messaging system,
+   and seen by all integrations and your reporting database
     - [Onion](#onions)
 
 > [!NOTE]
@@ -97,8 +94,8 @@ You will see JSON for Pizza in various contexts:
 
 ## Published JSON
 
-When sending JSON responses to API calls, or publishing to Service Bus, the
-data payload should be wrapped JSON:
+When sending JSON responses to API calls, or publishing to your messaging
+system, the data payload should be wrapped JSON:
 
 ```javascript
 {
