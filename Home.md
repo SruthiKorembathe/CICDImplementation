@@ -3,6 +3,10 @@
 The above is the default starting content when you use the "wiki" feature in
 GitHub.
 
+If your GitHub project does not yet have a wiki, go to the "Wiki" option in
+the GitHub UI for your project (it appears in the top navigation bar) and
+create the default first page.
+
 ## Sample pages
 
 * [[Template REST API]]
@@ -10,7 +14,8 @@ GitHub.
 
 ## Working with the wiki locally on your machine
 
-You can clone the wiki: it is a repo in GitHub.
+You can clone your wiki: it is a repo in GitHub.
+
 For this project, the clone URL is:
 `git@github.com:binkley/wiki-docs.wiki.git`.<br/>
 Note the ".wiki" added after your code repo URL.
