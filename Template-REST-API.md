@@ -2,7 +2,7 @@
 
 _Why documentation like this?_
 
-This page pulls togeter conversations you have with consumers of your API and
+This page pulls together conversations you have with consumers of your API and
 JSON.
 If you have _one consumer only_, it may not be worth effort to document;
 however, you may find that you get a later second, or third consumer, and
