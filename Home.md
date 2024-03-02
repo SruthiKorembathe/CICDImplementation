@@ -9,8 +9,15 @@ create the default first page.
 
 ## Sample pages
 
+### Documenting your REST API calls
+
+Start with these two pages in your wiki to document REST endpoints and JSON
+content, and edit as needed:
+
 * [[Template REST API]]
 * [[Template JSON Models]]
+
+### Diagramming your architecture
 
 ## Working with the wiki locally on your machine
 
