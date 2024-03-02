@@ -8,7 +8,7 @@ GitHub.
 * [[Template REST API]]
 * [[Template JSON Models]]
 
-## Working with the wiki locally with your machine
+## Working with the wiki locally on your machine
 
 You can clone the wiki: it is a repo in GitHub.
 For this project, the clone URL is:
