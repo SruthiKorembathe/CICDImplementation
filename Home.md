@@ -56,11 +56,16 @@ The UI automatically uploads the image, and inserts a link for you.
 
 ## The right-hand navigation sidebar
 
-When you edit the Sidebar in the GitHub UI, use the "crayon" icon:<br/>
+You may want to organize your wiki documentation pages.
+GitHub lets you do this by customizing the right-hand navigation _Sidebar_
+that appears in the GitHub UI.
+
+To edit the Sidebar in the GitHub UI, use the "crayon" icon:<br/>
 ![image](https://github.com/binkley/wiki-docs/assets/186421/9e4c088f-3aef-42ca-b137-e769d65a0872)
 
 If you customize the sidebar, readers can still find all pages&mdash;even
 those you did not list:<br/>
 ![image](https://github.com/binkley/wiki-docs/assets/186421/decb1b18-0318-44d2-bb39-d48c9aa8a570)
 
-Locally you can edit the `_Sidebar.md` file to change what is shown in the UI.
+Locally the right-hand navigation sidebar is the `_Sidebar.md` file in your
+wiki repo clone.
