@@ -50,6 +50,12 @@ UI -->|UI calls API| API
 
 ## Simple sequence diagram example
 
+Here is a simple sequence diagram with Mermaid.
+You can embed this directly in your wiki documentation using a code fence.<br/>
+You may find it more helpful to only use sequence diagrams for deep diving into
+specific interactions;
+some readers may find the level of detail overwhelming.
+
 ```mermaid
 sequenceDiagram
   UI ->>+ API: GET some stuff
