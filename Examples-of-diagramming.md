@@ -36,8 +36,9 @@ UI -->|UI calls API| API
 API -->|API responds| UI
 ```
 
-Typically I only show one side of this interaction and emphasize dependencies,
-and reserve the back and forth to _sequence diagrams_:
+Typically I only show one side of this interaction to emphasize dependencies,
+and reserve the back and forth for [_sequence
+diagrams_](#simple-sequence-diagram-example):
 
 ```mermaid
 flowchart LR
@@ -46,3 +47,5 @@ flowchart LR
 
 UI -->|UI calls API| API
 ```
+
+## Simple sequence diagram example
