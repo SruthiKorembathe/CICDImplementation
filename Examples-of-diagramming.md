@@ -30,6 +30,6 @@ flowchart LR
   UI[Your UI]
   API[Your API]
 
-UI -->|This is UI calling API| API
-API -->|This is API responding| UI
+UI -->|UI calling API| API
+API -->|API responding| UI
 ```
