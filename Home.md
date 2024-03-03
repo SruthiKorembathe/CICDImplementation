@@ -14,8 +14,8 @@ create the default first page.
 Start with these two pages in your wiki to document REST endpoints and JSON
 content, and edit as needed:
 
-* [[Template REST API]]
-* [[Template JSON Models]]
+* [[Template REST API]] &mdash; document your REST endpoints
+* [[Template JSON Models]] &mdash; document your JSON payloads
 
 You will rename these to remove the "Template" prefixes, and can provide your
 readers with "REST API" and "JSON Models" wiki documentation pages.
