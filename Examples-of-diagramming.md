@@ -19,7 +19,7 @@ type).
 
 Here is a simple diagram (flowchart) with Mermaid.
 You can embed this directly in your wiki documentation using a code fence.<br/>
-You may find that reordering nodes and connections gives a better overall
+You may find that reordering nodes and relationships gives a better overall
 diagram.
 
 ```mermaid
