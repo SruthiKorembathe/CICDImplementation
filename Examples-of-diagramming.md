@@ -17,12 +17,10 @@ type).
 
 ## Simple example
 
-> [!NOTE]
-> Here is a simple diagram with Mermaid.
-> You can embed this directly in your wiki documentation using a code fence.<br/>
-> You may find that reordering nodes and connections gives a better overall
-> diagram:
-> you need to play with this.
+Here is a simple diagram with Mermaid.
+You can embed this directly in your wiki documentation using a code fence.<br/>
+You may find that reordering nodes and connections gives a better overall
+diagram.
 
 ```mermaid
 ---
