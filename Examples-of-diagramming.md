@@ -60,9 +60,9 @@ Here is the same interaction but [with success/failure HTTP status codes](https:
 
 ```mermaid
 sequenceDiagram
-  UI ->> API: GET some stuff
+  UI ->>+ API: GET some stuff
   alt Status is 200
-    API -->> UI: Here is the stuff in the response body
+    API -->>- UI: Here is the stuff in the response body
   else Status is 400 or worse
     API -->> UI: Here is an error response body
   end
