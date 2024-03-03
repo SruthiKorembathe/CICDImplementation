@@ -56,7 +56,8 @@ sequenceDiagram
   API -->>- UI: Here is the stuff plus a status code
 ```
 
-Here is the same interaction but [with success/failure HTTP status codes](https://mermaid.js.org/syntax/sequenceDiagram.html#alt):
+Here is the same interaction but [with success/failure HTTP status
+codes](https://mermaid.js.org/syntax/sequenceDiagram.html#alt):
 
 ```mermaid
 sequenceDiagram
@@ -69,4 +70,7 @@ sequenceDiagram
 ```
 
 > [!NOTE]
-> Mixing `+`/`-` to call out complete interactions does not work when using `alt` to show errors.
+> Mixing `+`/`-` to call out complete interactions does not work when using
+> `alt` to show errors.
+> You can only complete the interaction from one side of "alternatives" (error
+> conditions).
