@@ -19,7 +19,19 @@ type).
 
 > [!NOTE]
 > Here is a simple diagram with Mermaid.
-> You can embed this directly in your wiki documentation using a code fence.
+> You can embed this directly in your wiki documentation using a code fence.<br/>
+> You may find that reordering nodes and connections gives a better overall
+> diagram:
+> you need to play with this.
 
 ```mermaid
+---
+Title: Simple example
+---
+flowchart LR
+  UI[Your UI]
+  API[Your API]
+
+UI -->|This is UI calling API| API
+API -->|This is API responding| UI
 ```
