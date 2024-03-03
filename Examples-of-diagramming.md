@@ -67,3 +67,6 @@ sequenceDiagram
     API -->> UI: Here is an error response body
   end
 ```
+
+> [!NOTE]
+> Mixing `+`/`-` to call out complete interactions does not work when using `alt` to show errors.
