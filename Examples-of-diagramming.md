@@ -49,3 +49,9 @@ UI -->|UI calls API| API
 ```
 
 ## Simple sequence diagram example
+
+```mermaid
+sequenceDiagram
+  UI ->> +API: GET some stuff
+  API -->>- UI: Here is the stuff plus a status code
+```
