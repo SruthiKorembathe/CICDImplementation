@@ -32,6 +32,17 @@ flowchart LR
   UI[Your UI]
   API[Your API]
 
-UI -->|UI calling API| API
-API -->|API responding| UI
+UI -->|UI calls API| API
+API -->|API responds| UI
+```
+
+Typically I only show one side of this interaction and emphasize dependencies,
+and reserve the back and forth to _sequence diagrams_:
+
+```mermaid
+flowchart LR
+  UI[Your UI]
+  API[Your API]
+
+UI -->|UI calls API| API
 ```
