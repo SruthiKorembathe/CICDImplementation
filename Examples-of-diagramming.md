@@ -15,17 +15,14 @@ type).
 * For developers working in the code base, "Class Diagram" is a classic but
   not typically shown outside your team
 
-## Simple example
+## Simple flowchart example
 
-Here is a simple diagram with Mermaid.
+Here is a simple diagram (flowchart) with Mermaid.
 You can embed this directly in your wiki documentation using a code fence.<br/>
 You may find that reordering nodes and connections gives a better overall
 diagram.
 
 ```mermaid
----
-Title: Simple example
----
 flowchart LR
   UI[Your UI]
   API[Your API]
