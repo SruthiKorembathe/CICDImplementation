@@ -78,5 +78,4 @@ sequenceDiagram
 > [!NOTE]
 > Mixing `+`/`-` to call out complete interactions does not work when using
 > `alt` to show errors.
-> You can only complete the interaction from one side of "alternatives" (error
-> conditions).
+> You can only complete the interaction from one side of "alternatives".
