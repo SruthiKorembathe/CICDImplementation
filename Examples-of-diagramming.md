@@ -61,9 +61,10 @@ UI -->|UI calls API| API
 
 Here is a simple sequence diagram with Mermaid.
 You can embed this directly in your wiki documentation using a code fence.<br/>
-You may find it more helpful to only use sequence diagrams for deep diving into
+You may find it more helpful to use sequence diagrams only for deep diving into
 specific interactions;
-some readers may find the level of detail overwhelming.
+some readers may find the level of detail overwhelming, and others will love
+you for it.
 
 ```mermaid
 sequenceDiagram
@@ -85,6 +86,28 @@ sequenceDiagram
 ```
 
 > [!NOTE]
-> Mixing `+`/`-` to call out complete interactions does not work when using
-> `alt` to show errors.
-> You can only complete the interaction from one side of "alternatives".
+> Mixing `+`/`-` to call out complete interactions does not work the same when
+> using `alt` to show errors.
+> You can only complete the interaction from one side of "alternatives";
+> I typically pick the happy path for this.
+
+## Simple ERD diagram example
+
+Here is a simple ERD diagram with Mermaid.
+In this example I am modelling the JSON used to add a topping.
+
+I typically use these to:
+- Do the classic thing of describing SQL tables and their relationships
+- Visually represent JSON to explain the properties
+
+```mermaid
+erDiagram
+  ONIONS {
+    timestamp startTime "in UTC"
+    UUID pizzaID
+    string type "always 'ONIONS' for this topping"
+    string color "one of: GREEN, RED, or WHITE"
+    string style "one of: FRESH or GRILLED"
+    string comments "customer special request"
+  }
+```
