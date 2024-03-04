@@ -12,3 +12,5 @@ file).
 # [[Template REST API]]
 
 # [[Template JSON Models]]
+
+# [[Examples of diagramming]]
