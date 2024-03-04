@@ -9,6 +9,8 @@ You can always use the "Pages" UI control above the sidebar to navigate
 (especially helpful for pages you have not yet added to the `_Sidebar.md`
 file).
 
+# [[Using the templates]]
+
 # [[Template REST API]]
 
 # [[Template JSON Models]]
