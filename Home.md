@@ -54,7 +54,8 @@ And you can always give a meaningful commit message when working locally with
 
 ## Adding images and screenshots
 
-I add images by editing with the GitHub UI for the wiki and pasting.
+I add images by editing with the GitHub UI for the wiki and pasting directly
+into the edit box.
 The UI automatically uploads the image, and inserts a link for you.
 
 > [!NOTE]
