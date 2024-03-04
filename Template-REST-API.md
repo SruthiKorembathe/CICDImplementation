@@ -12,14 +12,15 @@ and ask more interesting ones.
 
 This template uses a limited API that is part of a larger one:
 
-* Toppings
+* Pies &mdash; the larger API, not documented in the templates
+* Toppings &mdash; a smaller API part of "Pizza", and documented
 
 A full API has more collections of endpoints, for example _pies_ and not
 just _toppings_, but I want this template to focus on one thing, and you can
 add more.
 
-To use the template in your data product documentation, you will:
-- Remove this _Instructions_ section after you are done with it.
+To use the template in your documentation, you will:
+- Remove the _Instructions_ section after you are done with it.
 - Remove _notes_ and _tips_ sections that are about editing your copy of this
    template.
    You will add your own _notes_ and _tips_ sections relevant to your API (and
@@ -28,10 +29,10 @@ To use the template in your data product documentation, you will:
    If your REST API does not have groupings of related endpoints, then this
    does not make sense; however, for more complex APIs, you may want to
    group endpoints together in the documentation.
-- Decide if you want higher-level explanatory sections such as those on
-   versioning to be in another page, or perhaps these are not relevant.
+- Decide if you want higher-level explanatory sections&mdash;such as those on
+   versioning&mdash;to be in another page, or perhaps these are not relevant.
    An example is explanatory materials that help your delivery team or API
-   consumers understand your decisions on your API.
+   consumers understand your decisions for your API.
 
 Throughout the template, I'll call out _notes_ and _tips_ like this:
 
