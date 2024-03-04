@@ -1,7 +1,16 @@
-In general as you edit diagrams in the wiki, the GitHub web UI experience
-works better as you can toggle between editing and previews:
+_Everyone loves diagrams!_
+
+Be liberal in use of diagrams in your wiki.
+It is a solid feature of GitHub, and you should take advantage of what your
+tools provide you.
+
+> [!TIP]
+> In general as you edit diagrams in the wiki, the GitHub web UI experience
+> works better as you can toggle between editing and previews:
 
 ![image](https://github.com/binkley/wiki-docs/assets/186421/8b41ba18-338a-4311-9ec7-8668cd8a1003)
+
+## OK, but where I can learn more about diagramming in my wiki?
 
 You key goto resource on Mermaid is [_About
 Mermaid_](https://mermaid.js.org/intro/) (the documentation for each diagram
