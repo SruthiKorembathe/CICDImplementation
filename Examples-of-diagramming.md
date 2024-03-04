@@ -94,10 +94,11 @@ sequenceDiagram
 ## Simple ERD diagram example
 
 Here is a simple ERD diagram with Mermaid.
-In this example I am modelling the JSON used to add a topping, but with
-an eye to database support (ie, "FK" and "UK").
+In this example I model the JSON used to add a topping, but with an eye to
+eventual database support (ie, "FK" and "UK") as well as help the API
+implementation do the right thing.
 
-I typically use these to:
+I typically use ERD diagrams to:
 - Do the classic thing of describing SQL tables and their relationships
 - Visually represent JSON to explain the properties
 
