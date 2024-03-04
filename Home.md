@@ -8,6 +8,7 @@ the GitHub UI for your project (it appears midway in the top navigation bar)
 and create the default first page.
 If you do not see the "Wiki" option, you may need a project owner or
 administrator to enable the option in "Settings | General":
+
 ![image](https://github.com/binkley/wiki-docs/assets/186421/8f75980b-84e3-41ad-aa7e-e5f1f1ac5f62)
 
 ## Sample wiki pages
