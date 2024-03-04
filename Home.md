@@ -4,8 +4,10 @@ The above is the default starting content when you use the "wiki" feature in
 GitHub.
 
 If your GitHub project does not yet have a wiki, go to the "Wiki" option in
-the GitHub UI for your project (it appears in the top navigation bar) and
-create the default first page.
+the GitHub UI for your project (it appears midway in the top navigation bar)
+and create the default first page.
+If you do not see the "Wiki" option, you may need a project owner or
+administrator to enable the option in "Settings | General":
 
 ## Sample wiki pages
 
