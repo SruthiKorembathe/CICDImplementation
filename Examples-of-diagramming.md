@@ -94,7 +94,8 @@ sequenceDiagram
 ## Simple ERD diagram example
 
 Here is a simple ERD diagram with Mermaid.
-In this example I am modelling the JSON used to add a topping.
+In this example I am modelling the JSON used to add a topping, but with
+an eye to database support (ie, "FK" and "UK").
 
 I typically use these to:
 - Do the classic thing of describing SQL tables and their relationships
@@ -104,8 +105,8 @@ I typically use these to:
 erDiagram
   ONIONS {
     timestamp startTime "in UTC"
-    UUID pizzaId
-    UUID toppingId UK "support multiple onion toppings",
+    UUID pizzaId FK
+    UUID toppingId UK "support multiple onion toppings"
     string type "always 'ONIONS' for this topping"
     string color "one of: GREEN, RED, or WHITE"
     string style "one of: FRESH or GRILLED"
