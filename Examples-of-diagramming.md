@@ -114,3 +114,5 @@ erDiagram
     string comments "customer special request"
   }
 ```
+
+Here is the example expanded to show a database design:
