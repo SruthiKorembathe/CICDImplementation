@@ -104,7 +104,8 @@ I typically use these to:
 erDiagram
   ONIONS {
     timestamp startTime "in UTC"
-    UUID pizzaID
+    UUID pizzaId
+    UUID toppingId UK "support multiple onion toppings",
     string type "always 'ONIONS' for this topping"
     string color "one of: GREEN, RED, or WHITE"
     string style "one of: FRESH or GRILLED"
