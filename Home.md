@@ -32,8 +32,8 @@ You can clone your wiki: it is a repo in GitHub.
 For this project, the clone URL is:
 `git@github.com:binkley/wiki-docs.wiki.git`.<br/>
 Note the ".wiki" added after your code repo URL.
-(See [Cloning wikis to your
-computer](https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages#cloning-wikis-to-your-computer).)
+(See GitHub's [_Cloning wikis to your
+computer_](https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages#cloning-wikis-to-your-computer).)
 
 I like to edit the wiki locally, and take advantage of my IDE (such as
 [IntelliJ](https://www.jetbrains.com/help/idea/markdown.html) or
