@@ -27,7 +27,8 @@ readers with "REST API" and "JSON Models" wiki documentation pages.
 
 ## Working with the wiki locally on your machine
 
-You can clone your wiki: it is a repo in GitHub.
+You can _clone your wiki_: it is a repository in GitHub separate from your
+code repository but attached to it in the GitHub UI.
 
 For this project, the clone URL is:
 `git@github.com:binkley/wiki-docs.wiki.git`.<br/>
