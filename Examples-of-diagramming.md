@@ -97,11 +97,11 @@ I typically use ERD diagrams to:
 - Do the classic thing of describing SQL tables and their relationships
 - Visually represent JSON to explain the properties
 
-Here is a simple ERD diagram with Mermaid to represent JSON:
+Here is a simple ERD diagram to represent JSON with Mermaid:
 
 ```mermaid
 erDiagram
-  ONIONS {
+  Onions {
     timestamp startTime "in UTC"
     UUID pizzaId 
     UUID toppingId "support multiple onion toppings"
