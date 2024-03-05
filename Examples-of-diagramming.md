@@ -116,3 +116,23 @@ erDiagram
 ```
 
 Here is the example expanded to show a database design:
+
+```mermaid
+erDiagram
+  PIZZA_PIE {
+    timestamp startTime "in UTC"
+    UUID pizzaId PK
+  }
+
+  TOPPING_ONION {
+    timestamp startTime "in UTC"
+    UUID pizzaId FK
+    UUID toppingId UK "support multiple onion toppings"
+    string type "always 'ONIONS' for this topping"
+    string color "one of: GREEN, RED, or WHITE"
+    string style "one of: FRESH or GRILLED"
+    string comments "customer special request"
+  }
+
+  PIZZA_PIE ||--o{ TOPPING_ONION: toppings
+```
