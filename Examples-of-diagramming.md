@@ -93,21 +93,18 @@ sequenceDiagram
 
 ## Simple ERD diagram example
 
-Here is a simple ERD diagram with Mermaid.
-In this example I model the JSON used to add a topping, but with an eye to
-eventual database support (ie, "FK" and "UK") as well as help the API
-implementation do the right thing.
-
 I typically use ERD diagrams to:
 - Do the classic thing of describing SQL tables and their relationships
 - Visually represent JSON to explain the properties
+
+Here is a simple ERD diagram with Mermaid to represent JSON:
 
 ```mermaid
 erDiagram
   ONIONS {
     timestamp startTime "in UTC"
-    UUID pizzaId FK
-    UUID toppingId UK "support multiple onion toppings"
+    UUID pizzaId 
+    UUID toppingId "support multiple onion toppings"
     string type "always 'ONIONS' for this topping"
     string color "one of: GREEN, RED, or WHITE"
     string style "one of: FRESH or GRILLED"
@@ -120,14 +117,15 @@ Here is the example expanded to show a database design:
 ```mermaid
 erDiagram
   PIZZA_PIE {
-    timestamp startTime "in UTC"
     UUID pizzaId PK
+    timestamp startTime "in UTC"
+    string comments "customer special request"
   }
 
   TOPPING_ONION {
-    timestamp startTime "in UTC"
     UUID pizzaId FK
-    UUID toppingId UK "support multiple onion toppings"
+    UUID toppingId PK "support multiple toppings"
+    timestamp startTime "in UTC"
     string type "always 'ONIONS' for this topping"
     string color "one of: GREEN, RED, or WHITE"
     string style "one of: FRESH or GRILLED"
