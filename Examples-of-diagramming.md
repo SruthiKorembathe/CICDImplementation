@@ -134,3 +134,8 @@ erDiagram
 
   PIZZA_PIE ||--o{ TOPPING_ONION: toppings
 ```
+
+> [!TIP]
+> See ["Relationship
+> Syntax"](https://mermaid.js.org/syntax/entityRelationshipDiagram.html#relationship-syntax)
+> in Mermaid for representing other entity or table relationships.
