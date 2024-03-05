@@ -9,7 +9,7 @@ and create the default first page.
 If you do not see the "Wiki" option, you may need a project owner or
 administrator to enable the option in "Settings | General":
 
-![image](https://github.com/binkley/wiki-docs/assets/186421/8f75980b-84e3-41ad-aa7e-e5f1f1ac5f62)
+![GitHub settings to enable a wiki](https://github.com/binkley/wiki-docs/assets/186421/8f75980b-84e3-41ad-aa7e-e5f1f1ac5f62 "GitHub settings to enable a wiki")
 
 ## Sample wiki pages
 
@@ -52,7 +52,7 @@ When you edit in the GitHub UI, the default commit message look like:
 > Updated Home (markdown)
 
 You can give a commit message in the UI at the bottom of the page:<br/>
-![image](https://github.com/binkley/wiki-docs/assets/186421/e6ec089f-cc8e-4ab6-843a-a2daeacf41fa)
+![GitHub showing where you can have a Git commit message while using the UI](https://github.com/binkley/wiki-docs/assets/186421/e6ec089f-cc8e-4ab6-843a-a2daeacf41fa "GitHub showing where you can have a Git commit message while using the UI")
 
 And you can always give a meaningful commit message when working locally with
 `git commit -m <your message>` (and then pushing your change).
@@ -62,6 +62,7 @@ And you can always give a meaningful commit message when working locally with
 I add images by editing with the GitHub UI for the wiki and pasting directly
 into the edit box.
 The UI automatically uploads the image, and inserts a link for you.
+There are examples earlier in this wiki page.
 
 > [!NOTE]
 > I am unsure how to do this locally with the cloned repo.
@@ -74,11 +75,11 @@ GitHub lets you do this by customizing the right-hand navigation _Sidebar_
 that appears in the GitHub UI.
 
 To edit the Sidebar in the GitHub UI, use the "crayon" icon:<br/>
-![image](https://github.com/binkley/wiki-docs/assets/186421/9e4c088f-3aef-42ca-b137-e769d65a0872)
+![Showing in GitHub how to edit the sidebar](https://github.com/binkley/wiki-docs/assets/186421/9e4c088f-3aef-42ca-b137-e769d65a0872 "Showing in GitHub how to edit the sidebar")
 
 If you customize the sidebar, readers can still find all pages&mdash;even
 those you did not list:<br/>
-![image](https://github.com/binkley/wiki-docs/assets/186421/decb1b18-0318-44d2-bb39-d48c9aa8a570)
+![Showing in GitHub how to find all pages when you have a custom sidebar](https://github.com/binkley/wiki-docs/assets/186421/decb1b18-0318-44d2-bb39-d48c9aa8a570 "Showing in GitHub how to find all pages when you have a custom sidebar")
 
 Locally the right-hand navigation sidebar is the `_Sidebar.md` file in your
 wiki repo clone.
