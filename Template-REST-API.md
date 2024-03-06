@@ -300,6 +300,7 @@ Each success payload carries a JSON model in the `data` property:
 {
     "apiVersion": "v1",
     "status": "success",
+    // A timestamp for this REST response; something a consumer can save or use
     "effectiveTime": "1970-01-01T00:00:00.000000Z",
     "data": { } // or [ ] depending on endpoint 
 }
