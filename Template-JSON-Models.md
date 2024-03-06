@@ -1,3 +1,9 @@
+> [!TIP]
+> When you inspect the markdown for this template, you'll spot ` ```javascript `
+> code fences.
+> Technically the code blocks are JSON, however Javascript supports inline
+> comments for documentation.
+
 You will see JSON for Pizza in various contexts:
 
 | JSON type | Context | Side effects | Impacts PSA dashboard |

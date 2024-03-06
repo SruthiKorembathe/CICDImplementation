@@ -15,6 +15,12 @@
 > as [Toppings](#toppings) later in this page).
 > This helps with navigation.
 
+> [!TIP]
+> When you inspect the markdown for this template, you'll spot ` ```javascript `
+> code fences.
+> Technically the code blocks are JSON, however Javascript supports inline
+> comments for documentation.
+
 > Another style is with sentences rather than bullet lists, such as:<br>
 > _Jump to [Toppings](#toppings)._<br>
 > _Jump to [URL format and versioning](#url-format-and-versioning)._<br>
@@ -312,17 +318,6 @@ Each success payload carries a JSON model in the `data` property:
 > depending your needs.
 > A common choice (not shown here) is to include a timestamp of when you
 > API was called; this aids in debugging.
-
-> [!TIP]
-> Notice that the API version is part of the response body, and not just the
-> request URL path.
-> This redundancy is helpful, especially for other consumers downstream from
-> your direct API consumer, and helps with debugging.
-
-> [!TIP]
-> If you inspect the markdown for this template, you'll spot ` ```javascript `
-> code fences.
-> Technically the code blocks are JSON, however Javascript supports inline
 > comments and is visually the same when rendered.
 
 ### Error payloads
