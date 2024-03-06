@@ -365,8 +365,3 @@ by callers).
 > callers with a consistent experience using your API.
 > Again notice the redundancy, here not just with versioning, but with the
 > HTTP status code in the response.
-
-> [!NOTE]
-> The below "note" is plain text in the original Pizza API documentation.
-> While writing this template, it occured to me that I missed an opportunity
-> to use the "NOTE" markdown like I am doing here in this note.
