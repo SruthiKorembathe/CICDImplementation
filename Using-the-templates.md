@@ -74,10 +74,9 @@ Throughout the template, I'll call out _notes_ and _tips_ like this:
 > work with `pull`, `commit`, and `push`.
 > However, editing locally won't get you GitHub previews for your page.
 
-You may want to take advantage of the formatting for notes and tips for your
-own API consumers, especially if an endpoint or set of endpoints with
-non-obvious behavior or side effects, and any helpful remarks that should be
-called out.
+You shoud take advantage of notes, tips, and other options in your own API
+documentation, especially if an endpoint for endpoints with non-obvious
+behavior or side effects, and call out helpful remarks.
 
 ### JSON code with comments
 
