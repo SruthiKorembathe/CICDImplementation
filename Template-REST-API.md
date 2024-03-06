@@ -361,7 +361,7 @@ by callers).
 > that you do have an agreement on how to do so.
 
 > [!TIP]
-> And having a separately defined, but standard, error response body helps
-> callers with a consistent experience using your API.
-> Again notice the redundancy, here not just with versioning, but with the
-> HTTP status code in the response.
+> Having a separately defined, but standard, error response body helps callers
+> with a consistent experience using your API. Again notice the redundancy,
+> here not just with versioning, but with the HTTP status code in the
+> response.
