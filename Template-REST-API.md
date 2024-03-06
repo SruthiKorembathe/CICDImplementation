@@ -6,7 +6,8 @@
 > Another style is with sentences rather than bullet lists, such as:<br>
 > _Jump to [Toppings](#toppings)._<br>
 > _Jump to [URL format and versioning](#url-format-and-versioning)._<br>
-> _Jump to [Success and failure responses](#response-shapes)_.<br>
+> _Jump to [Success and failure responses](#response-shapes)_.
+>
 > This is up to you to pick a good style at the top of your page that best
 > helps readers to quickly find what they want.
 
