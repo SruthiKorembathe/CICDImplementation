@@ -2,6 +2,12 @@
 * [URL format and versioning](#url-format-and-versioning)
 * [Response shapes](#response-shapes)
 
+> [!TIP]
+> It is best to start your documentation page with curated internal links that
+> help folks jump quickly to those parts of your API that interests them (such
+> as [Toppings](#toppings) later in this page).
+> This helps with navigation.
+
 > [!NOTE]
 > Another style is with sentences rather than bullet lists, such as:<br>
 > _Jump to [Toppings](#toppings)._<br>
@@ -16,12 +22,6 @@
 > code fences.
 > Technically the code blocks are JSON, however Javascript supports inline
 > comments for documentation.
-
-> [!TIP]
-> It is best to start your documentation page with curated internal links that
-> help folks jump quickly to those parts of your API that interests them (such
-> as [Toppings](#toppings) later in this page).
-> This helps with navigation.
 
 ## Understanding this page
 
