@@ -10,17 +10,17 @@
 > This is up to you to pick a good style at the top of your page that best
 > helps readers to quickly find what they want.
 
+> [!NOTE]
+> When you inspect the markdown for this template, you'll spot ` ```javascript `
+> code fences.
+> Technically the code blocks are JSON, however Javascript supports inline
+> comments for documentation.
+
 > [!TIP]
 > It is best to start your documentation page with curated internal links that
 > help folks jump quickly to those parts of your API that interests them (such
 > as [Toppings](#toppings) later in this page).
 > This helps with navigation.
-
-> [!TIP]
-> When you inspect the markdown for this template, you'll spot ` ```javascript `
-> code fences.
-> Technically the code blocks are JSON, however Javascript supports inline
-> comments for documentation.
 
 ## Understanding this page
 
