@@ -17,12 +17,6 @@
 > This is up to you to pick a good style at the top of your page that best
 > helps readers quickly find what they helps them most.
 
-> [!NOTE]
-> When you inspect the markdown for this template, you'll spot ` ```javascript `
-> code fences.
-> Technically the code blocks are JSON, however Javascript supports inline
-> comments for documentation.
-
 ## Understanding this page
 
 This page documents the REST API endpoints available for Toppings.
@@ -37,7 +31,7 @@ The endpoint documentation has technical details for you as the consumer of the 
 - ䷴ development in progress (DEV or ACC may work for you, but not ready for PRD; talk with the team for details)
 - ⛔ not yet implemented but planned (upcoming work; an FYI to help you plan your integration with us)
 
-> [!NOTE]
+> [!TIP]
 > These are simple markers of the development status of each endpoint.
 > This helps API consumers know which endpoints are ready for use, and in what
 > environments they may call them.
@@ -45,9 +39,15 @@ The endpoint documentation has technical details for you as the consumer of the 
 > integration work.
 
 > [!NOTE]
-> These symbols are UNICODE characters pasted directly into this markdown.
+> When you inspect the markdown for this template, you'll spot ` ```javascript `
+> code fences.
+> Technically the code blocks are JSON, however Javascript supports inline
+> comments for documentation.
+
+> [!NOTE]
+> There are symbols from UNICODE pasted directly into this markdown.
 > Graphemica is a great site for finding suitable UNICODE, for example the
-> [✳️ ](https://graphemica.com/%E2%9C%B3) above.
+> [✳️](https://graphemica.com/%E2%9C%B3) above.
 
 ### Responses for all API calls
 
