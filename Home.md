@@ -45,7 +45,7 @@ I like to edit the wiki locally, and take advantage of my IDE (such as
 [VSCode](https://code.visualstudio.com/docs/languages/markdown)) and the
 command line, but it is up to you what works best.
 
-### Commit messages
+### About commit messages
 
 When you edit in the GitHub UI, the default commit message look like:
 
@@ -57,7 +57,7 @@ You can give a commit message in the UI at the bottom of the page:<br/>
 And you can always give a meaningful commit message when working locally with
 `git commit -m <your message>` (and then pushing your change).
 
-## Adding images and screenshots
+## Adding images and screenshots to a wiki page
 
 I add images by editing with the GitHub UI for the wiki and pasting directly
 into the edit box.
@@ -68,7 +68,7 @@ There are examples earlier in this wiki page.
 > I am unsure how to do this locally with the cloned repo.
 > The "assets" (images) are not part of cloning the wiki.
 
-## The right-hand navigation sidebar
+## Changing the right-hand navigation sidebar in GitHub UI
 
 You may want to organize your wiki documentation pages.
 GitHub lets you do this by customizing the right-hand navigation _Sidebar_

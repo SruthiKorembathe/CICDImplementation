@@ -11,8 +11,11 @@ file).
 
 # [[Using the templates]]
 
-# [[Template REST API]]
+# Templates
 
-# [[Template JSON Models]]
+## [[Template REST API]]
+## [[Template JSON Models]]
 
-# [[Examples of diagramming]]
+# Writing diagrams
+
+## [[Examples of diagramming]]
