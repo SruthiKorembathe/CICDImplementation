@@ -26,8 +26,9 @@ The endpoint documentation has technical details for you as the consumer of the 
 > [!NOTE]
 > When you inspect the markdown for this template, you'll spot ` ```javascript `
 > code fences.
-> Technically the code blocks are JSON, however Javascript supports inline
+> Technically the code blocks are `json`, however `javascript` supports inline
 > comments for documentation.
+> This is a trick you may want to reuse.
 
 ### Endpoints are marked for their status
 
