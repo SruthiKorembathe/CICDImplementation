@@ -20,6 +20,7 @@ content, and edit as needed:
 
 * [[Template REST API]] &mdash; document your REST endpoints
 * [[Template JSON Models]] &mdash; document your JSON payloads
+* [[Examples of diagramming]] &mdash; document your architecture
 
 You will rename these to remove the "Template" prefixes, and can provide your
 readers with "REST API" and "JSON Models" wiki documentation pages.
