@@ -9,7 +9,7 @@
 > _Jump to [Success and failure responses](#response-shapes)_.
 >
 > This is up to you to pick a good style at the top of your page that best
-> helps readers to quickly find what they want.
+> helps readers quickly find what they helps them most.
 
 > [!NOTE]
 > When you inspect the markdown for this template, you'll spot ` ```javascript `
