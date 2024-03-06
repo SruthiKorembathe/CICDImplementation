@@ -337,9 +337,20 @@ Each error payload provides structured error payloads:
 }
 ```
 
+Note that for a 404 (Not found) it is helpful to include a message in the
+body indicating that the URL format is OK, but that the `PIZZA-ID` does not
+match an existing pie.
+This helps distinguish between a badly-formed URL and a missing resource.
+
+The message can be plain text (not processible by systems, but good for
+humans), or a JSON body following agreed conventions (processible in software
+by callers).
+
 > [!NOTE]
 > The same comment about decorating the response body with metadata applies
 > also to error responses, and not just to success responses.
+> So error messages might provide information on API version, and the body of
+> the error message is in the `reason` property.
 
 > [!NOTE]
 > There are a lot of approaches to handling error conditions in the JSON
@@ -359,11 +370,3 @@ Each error payload provides structured error payloads:
 > The below "note" is plain text in the original Pizza API documentation.
 > While writing this template, it occured to me that I missed an opportunity
 > to use the "NOTE" markdown like I am doing here in this note.
-
-Note that for a 404 (Not found) it is helpful to include a message in the
-body indicating that the URL format is OK, but that the `PIZZA-ID` does not
-match an existing pie.
-This helps distinguish between a badly-formed URL and a missing resource.
-
-The message can be plain text (not processible by systems, but good for
-humans), or a JSON body following agreed conventions.
