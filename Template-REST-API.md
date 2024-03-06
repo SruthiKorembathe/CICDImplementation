@@ -344,7 +344,7 @@ Each error payload provides structured error payloads:
 > [!NOTE]
 > There are a lot of approaches to handling error conditions in the JSON
 > response to callers.
-> One is [RFC 7807 &mdash _Problem Details for HTTP
+> One is [RFC 7807 &mdash; _Problem Details for HTTP
 > APIs_](https://datatracker.ietf.org/doc/html/rfc7807).
 > Your REST API should decide on how to represent errors: the key point is
 > that you do have an agreement on how to do so.
