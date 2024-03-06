@@ -352,16 +352,10 @@ by callers).
 > So error messages might provide information on API version, and the body of
 > the error message is in the `reason` property.
 
-> [!NOTE]
+> [!TIP]
 > There are a lot of approaches to handling error conditions in the JSON
 > response to callers.
 > One is [RFC 7807 &mdash; _Problem Details for HTTP
 > APIs_](https://datatracker.ietf.org/doc/html/rfc7807).
 > Your REST API should decide on how to represent errors: the key point is
 > that you do have an agreement on how to do so.
-
-> [!TIP]
-> Having a separately defined, but standard, error response body helps callers
-> with a consistent experience using your API. Again notice the redundancy,
-> here not just with versioning, but with the HTTP status code in the
-> response.
