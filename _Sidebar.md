@@ -15,6 +15,6 @@ file).
 ### [[Template REST API]]
 ### [[Template JSON Models]]
 
-# Writing diagrams
+# Diagrams in your wiki pages
 
 ### [[Examples of diagramming]]
