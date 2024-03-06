@@ -3,11 +3,12 @@
 * [Response shapes](#response-shapes)
 
 > [!NOTE]
-> "Toppings" is the main API for this template documentation.<br>
-> "URL format and versioning" is helpful to give API consumers an overall
-> picture of what your API paths look like.<br>
-> "Response shapes" talks about your success and failure responses.
-> I don't show the APIs for Pizza or pies.
+> Another style is with sentences rather than bullet lists, such as:<br>
+> _Jump to [Toppings](#toppings)._<br>
+> _Jump to [URL format and versioning](#url-format-and-versioning)._<br>
+> _Jump to [Success and failure responses](#response-shapes)_.<br>
+> This is up to you to pick a good style at the top of your page that best
+> helps readers to quickly find what they want.
 
 > [!TIP]
 > It is best to start your documentation page with curated internal links that
@@ -20,13 +21,6 @@
 > code fences.
 > Technically the code blocks are JSON, however Javascript supports inline
 > comments for documentation.
-
-> Another style is with sentences rather than bullet lists, such as:<br>
-> _Jump to [Toppings](#toppings)._<br>
-> _Jump to [URL format and versioning](#url-format-and-versioning)._<br>
-> _Jump to [Success and failure responses](#response-shapes)_.<br>
-> This is up to you to pick a good style at the top of your page than best
-> helps readers to quickly find what they want.
 
 ## Understanding this page
 
