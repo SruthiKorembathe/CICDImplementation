@@ -38,7 +38,12 @@ To use the templates in your documentation, you will:
 
 ### Notes, tips, all that
 
-Throughout the template, I'll call out _notes_ and _tips_ like this:
+You should take advantage of notes, tips, and other options in your own API
+documentation, especially if an endpoint for endpoints with non-obvious
+behavior or side effects, and call out helpful remarks.
+
+Throughout the templates, I'll call out _notes_ and _tips_ like this in the
+markdown:
 
 > [!NOTE]
 > Here is the first note.<br>
@@ -73,10 +78,6 @@ Throughout the template, I'll call out _notes_ and _tips_ like this:
 > To edit this page locally, you would use `git clone` for the wiki repo, and
 > work with `pull`, `commit`, and `push`.
 > However, editing locally won't get you GitHub previews for your page.
-
-You shoud take advantage of notes, tips, and other options in your own API
-documentation, especially if an endpoint for endpoints with non-obvious
-behavior or side effects, and call out helpful remarks.
 
 ### JSON code with comments
 

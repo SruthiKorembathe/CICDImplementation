@@ -122,6 +122,11 @@ This is a general summary for HTTP response status codes.
 > It also gives a "preview" to API consumers of what endpoints may be
 > available in the future.
 
+> [!CAUTION]
+> This is an example "caution" note for an endpoint:
+> _This call sends an update to the message bus reflecting the change to a
+> pizza pie with changed toppings._
+
 > [!TIP]
 > Be consistent in your formatting for which parts of a URL are literal
 > text, and which part are placeholders (URL path pies).
