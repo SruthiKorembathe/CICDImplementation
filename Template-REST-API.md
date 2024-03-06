@@ -3,25 +3,18 @@
 * [Response shapes](#response-shapes)
 
 > [!TIP]
-> It is best to start your documentation page with curated internal links that
-> help folks jump quickly to those parts of your API that interests them (such
-> as [Toppings](#toppings) later in this page).
-> This helps with navigation.
+> It is best to start your documentation page with internal page links that
+> let folks jump quickly to into your API (such as [Toppings](#toppings) later
+> in this page).
+> This helps them with navigation.
 
 > [!NOTE]
-> Another style is with sentences rather than bullet lists, such as:<br>
+> Another style than bullet points is sentences on separate lines such as:<br>
 > _Jump to [Toppings](#toppings)._<br>
 > _Jump to [URL format and versioning](#url-format-and-versioning)._<br>
 > _Jump to [Success and failure responses](#response-shapes)_.
 >
-> This is up to you to pick a good style at the top of your page that best
-> helps readers quickly find what they helps them most.
-
-> [!NOTE]
-> When you inspect the markdown for this template, you'll spot ` ```javascript `
-> code fences.
-> Technically the code blocks are JSON, however Javascript supports inline
-> comments for documentation.
+> You should select a style that best helps readers find information.
 
 ## Understanding this page
 
@@ -29,6 +22,12 @@ This page documents the REST API endpoints available for Toppings.
 The endpoint documentation has technical details for you as the consumer of the API, and also additional information:
 - What is the delivery status of an endpoint? Can I use this now?
 - What side effects or complications might impact me?
+
+> [!NOTE]
+> When you inspect the markdown for this template, you'll spot ` ```javascript `
+> code fences.
+> Technically the code blocks are JSON, however Javascript supports inline
+> comments for documentation.
 
 ### Endpoints are marked for their status
 
