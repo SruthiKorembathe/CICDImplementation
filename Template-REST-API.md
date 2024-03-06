@@ -365,4 +365,5 @@ body indicating that the URL format is OK, but that the `PIZZA-ID` does not
 match an existing pie.
 This helps distinguish between a badly-formed URL and a missing resource.
 
-The message can be plain text, or an error code, or both.
+The message can be plain text (not processible by systems, but good for
+humans), or a JSON body following agreed conventions.
