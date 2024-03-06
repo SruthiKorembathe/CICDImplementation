@@ -34,6 +34,10 @@ To use the templates in your documentation, you will:
    An example is explanatory materials that help your delivery team or API
    consumers understand your decisions for your API.
 
+## Some wiki implementation details
+
+### Notes, tips, all that
+
 Throughout the template, I'll call out _notes_ and _tips_ like this:
 
 > [!NOTE]
@@ -72,6 +76,15 @@ You may want to take advantage of the formatting for notes and tips for your
 own API consumers, especially if an endpoint or set of endpoints with
 non-obvious behavior or side effects, and any helpful remarks that should be
 called out.
+
+### JSON code with comments
+
+When you inspect the markdown for templates, you'll spot ` ```javascript `
+code fences.
+Technically the code blocks are `json`, however `javascript` supports inline
+comments for documentation:
+JSON does not support comments but Javascript does.
+This is a trick you may want to reuse.
 
 ## What again is this API?
 
