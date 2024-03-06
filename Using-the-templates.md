@@ -54,7 +54,9 @@ Throughout the template, I'll call out _notes_ and _tips_ like this:
 >   possibly have additional user interaction to confirm impactful permanent
 >   changes
 > - `CAUTION` &mdash; talk about side effects or non-obvious behavior, but
->   usually does not require additional user interaction
+>   usually does not require additional user interaction.
+>   An example is a REST call that modifies a remote database visible to
+>   others.
 
 > [!TIP]
 > Here is the first tip.<br>
