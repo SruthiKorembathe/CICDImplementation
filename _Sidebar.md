@@ -1,11 +1,13 @@
-This is an example right-hand sidebar for your GitHub wiki.
-By default it simply lists your pages in alphabetical order.<br/>
-Note that you can use `[[Page title]]` with double brackets when referencing pages.
-
+This is an example sidebar for your GitHub wiki (GitHub by default shows this
+on the right top of all wiki pages).
+By default GitHub simply lists your pages in alphabetical order.
 This side bar is named `_Sidebar.md` in the source files when you clone the
-wiki.
+wiki, or you can use the "crayon" to edit in the UI.
 
-You can always use the "Pages" UI control above the sidebar to navigate
+Use `[[Page title]]` with double brackets when referencing pages here in the
+sidebar or elsewhere in your wiki pages.
+
+You can always use the "Pages" UI control above the sidebar to navigate ☝
 (especially helpful for pages you have not yet added to the `_Sidebar.md`
 file).
 
