@@ -332,24 +332,23 @@ Each error payload provides structured error payloads:
 }
 ```
 
-The error message can be plain text (not processible by systems, but good for
-humans), or a JSON body following agreed conventions as shown above
-(processible in software by callers).
-Using a JSON body for error is _particularly_ helpful as a remote UI can scan
-for the error cause, and provide a human message specific for their users, and
-log aggregation downstream can better filter.
+> [!NOTE]
+> The error payload (the response body in HTTP) can be plain text (not
+> processible by systems, but good for humans), or a JSON body following
+> agreed conventions as shown above (processible in software by callers).
+> Using a JSON body for error is _particularly_ helpful as a remote UI can
+> scan for the error cause, and provide a human message specific for their
+> users, and log aggregation downstream can better filter.
+>
+> Whatever you select, ensure you provide an appropriate HTTP `Content-Type`
+> header in the responses from your API.
 
 > [!NOTE]
-> Note that for a 404 (Not found) it is helpful to include a message in the
-> body indicating that the URL format is OK, but that the `PIZZA-ID` or
-> `PIZZA-TOPING-ID` does not match an existing pie or topping.  This helps
-> distinguish between a badly-formed URL and a missing resource.
-
-> [!NOTE]
-> The same comment about decorating the response body with metadata applies
-> also to error responses, and not just to success responses.
-> So error messages might provide information on API version, and the body of
-> the error message is in the `reason` property.
+> Note that for 404 (Not found) responses it is helpful to include a
+> human-readable message in the body indicating that the URL format is OK, but
+> that the `PIZZA-ID` or `PIZZA-TOPING-ID` does not match an existing pie or
+> topping.
+> This helps distinguish between a badly-formed URL and a missing resource.
 
 > [!TIP]
 > There are a lot of approaches to handling error conditions in the JSON
@@ -357,4 +356,4 @@ log aggregation downstream can better filter.
 > One is [RFC 7807 &mdash; _Problem Details for HTTP
 > APIs_](https://datatracker.ietf.org/doc/html/rfc7807).
 > Your REST API should decide on how to represent errors: the key point is
-> that you do have an agreement on how to do so.
+> that you do have an agreement shared with API consumers on how to do so.
