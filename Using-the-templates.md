@@ -130,16 +130,27 @@ And the same with `javascript` as the code fence language (` ```javascript`):
 }
 ```
 
-## What again is this API?
+## What again is this API and wiki docs?
 
-What are "toppings" and "pies" and who is "Pizza"?
+What are "toppings" and "pies", and who is "Pizza"?
 These are examples for REST API GitHub Markdown wiki documents, and are about
 pizza pies and the toppings on them.
 
 > [!NOTE]
 > I didn't tell you that up front, but you are clever and will figure it out.
+> Your own wiki docs should provide an upfront overview in the Home page to
+> guide readers to what matters to them.
+> I am using "pizza" and "pie" and "toppings" as examples.
+
+A recommended source guiding you to a strong project README is [from Yegor
+Bugayenko (Его́р
+Бугае́нко)](https://www.yegor256.com/2019/04/23/elegant-readme.html).
+Your wiki docs are **not the same** as your `README.md` in each of your
+project's root repository!
+But your README should point the reader to the wiki docs.
 
 These templates are built from internal documentation at a global company
 wanting better communication across their projects, and to help integrations
 against their REST APIs.
+
 They are sanitized for your protection (really mine).
