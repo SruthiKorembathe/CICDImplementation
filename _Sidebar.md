@@ -8,7 +8,7 @@ wiki, or you can use the "crayon" to edit in the UI.
 Use `[[Page title]]` with double brackets when referencing pages here in the
 sidebar or elsewhere in your wiki pages.
 
-You can always use the "Pages" UI control above the sidebar to navigate ☝
+You can always use the "Pages" UI control above the sidebar ☝ to navigate
 (especially helpful for pages you have not yet added to the `_Sidebar.md`
 file).
 
