@@ -26,7 +26,7 @@ readers with "REST API" and "JSON Models" wiki documentation pages.
 
 ### Diagramming your architecture
 
-* [[Examples of diagramming]] &mdash; taking advantage of Mermaid in your
+* [[Examples of diagramming]] &mdash; take advantage of Mermaid in your
   documentation
 
 ## Working with the wiki locally on your machine
