@@ -64,7 +64,7 @@ And you can always give a meaningful commit message when working locally with
 I add images by editing with the GitHub UI for the wiki and pasting directly
 into the edit box.
 The UI automatically uploads the image, and inserts a link for you.
-There are examples earlier in this wiki page.
+There are examples throughout this wiki page.
 
 > [!NOTE]
 > I am unsure how to do this locally with the cloned repo.
