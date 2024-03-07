@@ -111,19 +111,19 @@ Workarounds:
 ### JSON code with comments
 
 When you inspect the GitHub Markdown for templates, you'll spot `
-```javascript ` code fences.
+```javascript` code fences.
 Technically the code blocks are `json`, however `javascript` supports inline
 comments for documentation:
 JSON does not support comments but Javascript does.<br>
 _This is a trick you may want to reuse._
 
-An example with `json` as the code fence language (` ```json `):
+An example with `json` as the code fence language (` ```json`):
 ```json
 {
    "bob": "Marley" // there are many Bobs in the world, this is just one
 }
 ```
-And the same with `javascript` as the code fence language (` ```javascript `):
+And the same with `javascript` as the code fence language (` ```javascript`):
 ```javascript
 {
    "bob": "Marley" // there are many Bobs in the world, this is just one
