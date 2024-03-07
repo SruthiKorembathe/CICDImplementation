@@ -43,14 +43,14 @@ documentation, especially if an endpoint for endpoints with non-obvious
 behavior or side effects, and call out helpful remarks.
 
 Throughout the templates, I'll call out _notes_ and _tips_ like this in the
-markdown:
+Markdown code:
 
 > [!NOTE]
 > Here is the first note.<br>
 > Note that this is how notes look like.<br>
-> You can read more on how callout-style remarks look in GitHub markdown here:
+> You can read more on how callout-style remarks look in GitHub Markdown here:
 > [_...highlight a "Note" and "Warning..."_](https://github.com/orgs/community/discussions/16925).
-> Full options for markdown in your documentation include as part of
+> Full options for GitHub Markdown in your documentation include as part of
 > `[!style]` where "style" is one of:
 > - `NOTE` &mdash; used in this template
 > - `TIP` &mdash; used in this template
@@ -89,7 +89,7 @@ Unfortunately these extensions are not supported in GitHub Markdown.
 Workarounds:
 
 - Use HTML directly in your Markdown for `<dl>`, `<dt>`, and `<dd>`.
-   When using these, you may not use markdown within the HTML section, and
+   When using these, you may not use Markdown within the HTML section, and
    need to use HTML tags.
    Here is an example:
    <dl>
@@ -110,20 +110,20 @@ Workarounds:
 
 ### JSON code with comments
 
-When you inspect the markdown for templates, you'll spot ` ```javascript `
-code fences.
+When you inspect the GitHub Markdown for templates, you'll spot `
+```javascript ` code fences.
 Technically the code blocks are `json`, however `javascript` supports inline
 comments for documentation:
 JSON does not support comments but Javascript does.<br>
 _This is a trick you may want to reuse._
 
-An example with `json` as the code fence language:
+An example with `json` as the code fence language (` ```json `):
 ```json
 {
    "bob": "Marley" // there are many Bobs in the world, this is just one
 }
 ```
-And the same with `javascript` as the code fence language:
+And the same with `javascript` as the code fence language (` ```javascript `):
 ```javascript
 {
    "bob": "Marley" // there are many Bobs in the world, this is just one

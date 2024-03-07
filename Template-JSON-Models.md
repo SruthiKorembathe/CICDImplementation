@@ -1,8 +1,8 @@
 > [!TIP]
-> When you inspect the markdown for this template, you'll spot ` ```javascript `
-> code fences.
-> Technically the code blocks are JSON, however Javascript supports inline
-> comments for documentation.
+> When you inspect the GitHub Markdown for this template, you'll spot `
+> ```javascript ` code fences.
+> Technically the code blocks are JSON in the API, however Javascript supports
+> inline comments for documentation so is a better choice for documentation.
 
 You will see JSON for Pizza in various contexts:
 
