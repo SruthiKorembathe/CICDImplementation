@@ -88,7 +88,7 @@ Unfortunately these extensions are not supported in GitHub Markdown.
 
 Workarounds:
 
-- Use HTML directly in your Markdown for `<dl>`, `<dt>`, and `<dd>`.
+- _Use HTML directly in your Markdown_ for `<dl>`, `<dt>`, and `<dd>`.
    When using these, you may not use Markdown within the HTML section, and
    need to use HTML tags.
    Here is an example:
@@ -99,7 +99,7 @@ Workarounds:
            distinct from the pizza pie (<code>PIZZA-ID</code>).
        </dd>
    </dl>
-- Fake the defintion list which is what I've done in these templates.
+- _Fake the defintion list_ which is what I've done in these templates.
    So I use a bullet list, and the `&mdash;` character (&mdash;) to describe
    lists that would be nicer done with HTML definition lists.
    In Markdown the above example would looks like:
