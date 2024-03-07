@@ -332,16 +332,18 @@ Each error payload provides structured error payloads:
 }
 ```
 
-Note that for a 404 (Not found) it is helpful to include a message in the
-body indicating that the URL format is OK, but that the `PIZZA-ID` or
-`PIZZA-TOPING-ID` does not match an existing pie or topping.
-This helps distinguish between a badly-formed URL and a missing resource.
-
 The error message can be plain text (not processible by systems, but good for
-humans), or a JSON body following agreed conventions (processible in software
-by callers).
+humans), or a JSON body following agreed conventions as shown above
+(processible in software by callers).
 Using a JSON body for error is _particularly_ helpful as a remote UI can scan
-for the error cause, and provide a human message specific for their users.
+for the error cause, and provide a human message specific for their users, and
+log aggregation downstream can better filter.
+
+> [!NOTE]
+> Note that for a 404 (Not found) it is helpful to include a message in the
+> body indicating that the URL format is OK, but that the `PIZZA-ID` or
+> `PIZZA-TOPING-ID` does not match an existing pie or topping.  This helps
+> distinguish between a badly-formed URL and a missing resource.
 
 > [!NOTE]
 > The same comment about decorating the response body with metadata applies
