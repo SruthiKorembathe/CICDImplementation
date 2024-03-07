@@ -20,6 +20,7 @@
 
 This page documents the REST API endpoints available for Toppings.
 The endpoint documentation has technical details for you as the consumer of the API, and also additional information:
+- How do you want to present your endpoints?
 - What is the delivery status of an endpoint? Can I use this now?
 - What side effects or complications might impact me?
 
@@ -57,8 +58,8 @@ This is a general summary for HTTP response status codes.
 |404 (Not Found)|Invalid URL path, recheck the REST API documentation|
 |404 (Not Found)|An invalid site acronym in the URL|
 |404 (Not Found)|A missing pie PIZZA-ID in the URL|
-|404 (Not Found)|A missing topping PIZZA-ID in the URL|
-|422 (Unprocessable Content)|The values in the JSON body of a POST or PUT are invalid, or violate a business rule|
+|404 (Not Found)|A missing topping PIZZA-TOPPING-ID in the URL|
+|422 (Unprocessable Content)|The values in the JSON body of a POST or PUT are invalid, or violate a business rule but the JSON is well-structured|
 |429 (Too Many Requests)|We many need to adjust our Cosmos scaling|
 
 > [!NOTE]
@@ -81,13 +82,18 @@ This is a general summary for HTTP response status codes.
 * ✳️ [I want to edit an existing topping for a pie](#edit-one-topping)
 * ✳️ [I want to delete an existing topping for a pie](#delete-one-topping)
 
+> [!IMPORTANT]
+> You will want to give a top-level summary of your endpoints, but you may
+> choose different styles or a combination depending on your intended
+> audience.
+
 > [!TIP]
 > Present the same information as a list of questions above, and as a more
 > detailed table below.
 > It is more work for you as an author, but helps folks find information more
 > quickly depending on their style of thinking.
 
-|Purpose (click for details)|Client|REST call|Description|
+|Purpose (click for details)|Client|REST call|JSON payloads|
 |---------------------------|------|---------|-----------|
 |✳️ [Create a new topping for a pie](#add-one-topping)|Pizza UI and **Onions team**|`POST /v1/api/pie/PIE-PIZZA-ID/topping`|`data` property has the [Pie JSON](Template-JSON-Models#pies) holding the new topping|
 |✳️ [Edit an existing topping for a pie](#edit-one-topping)|Pizza UI and **Onions team**|`PUT /v1/api/pie/PIE-PIZZA-ID/topping/TOPPING-PIZZA-ID`|`data` property has the [Pie JSON](Template-JSON-Models#pies) holding the edited topping|
@@ -96,6 +102,7 @@ This is a general summary for HTTP response status codes.
 > [!NOTE]
 > And after providing quick links for jumping to specific endpoints, then
 > break down each endpoint with specifics in a standard format.
+> This is a tabular format more suitable for programmers.
 
 ### Add one topping
 
