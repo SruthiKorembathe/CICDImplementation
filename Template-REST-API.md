@@ -146,7 +146,7 @@ This is a general summary for HTTP response status codes.
 
 #### URL parameters
 
-- `PIZZA-PIE-ID` -- the `pizzaId` property of the pie; example: a UUID
+- `PIZZA-PIE-ID` &mdash; the `pizzaId` property of the pie; example: a UUID
   provided by Pizza
 
 > [!NOTE]
@@ -177,10 +177,10 @@ identified as `PIE-PIZZA-ID`.
 
 #### Status codes
 
-- 201 (Created) - The new topping is created
-- 404 (Not found) - The site acronym is invalid
-- 404 (Not found) - The pie PIZZA-ID is invalid
-- 422 (Unprocessable content) - The topping violates business rules
+- 201 (Created) &mdash; The new topping is created
+- 404 (Not found) &mdash; The pie PIZZA-ID is not currently available
+- 422 (Unprocessable content) &mdash; The topping violates business rules;
+   your posted JSON is fine, but there is something wrong in the values
 
 > [!NOTE]
 > Conclude documenting an endpoint with a list of possible HTTP status codes
@@ -202,10 +202,10 @@ identified as `PIE-PIZZA-ID`.
 
 #### URL pies
 
-- `PIZZA-PIE-ID` -- the `pizzaId` of the pie; example: a UUID provided by
+- `PIZZA-PIE-ID` &mdash; the `pizzaId` of the pie; example: a UUID provided by
   Pizza
-- `PIZZA-TOPPING-ID` -- the `pizzaId` of the topping; example a UUID provided
-  by Pizza
+- `PIZZA-TOPPING-ID` &mdash; the `pizzaId` of the topping; example a UUID
+  provided by Pizza
 
 > [!NOTE]
 > This is an example of multiple placeholders in the URL.
@@ -222,10 +222,9 @@ identified as `PIE-PIZZA-ID`.
 
 #### Status codes
 
-- 200 (OK) - The existing topping is edited
-- 404 (Not found) - The site acronym is invalid
-- 404 (Not found) - The pie PIZZA-ID is invalid
-- 404 (Not found) - The topping PIZZA-ID is invalid
+- 200 (OK) &mdash; The existing topping is edited
+- 404 (Not found) &mdash; The pie PIZZA-ID is not currently available
+- 404 (Not found) &mdash; The topping PIZZA-ID is not currently available
 
 ----
 
@@ -247,10 +246,10 @@ identified as `PIE-PIZZA-ID`.
 
 #### URL pies
 
-- `PIZZA-PIE-ID` -- the `pizzaId` property of the pie; example: a
+- `PIZZA-PIE-ID` &mdash; the `pizzaId` property of the pie; example: a
   UUID provided by Topping
-- `PIZZA-TOPPING-ID` -- the `pizzaId` of the topping; example a UUID provided
-  by Topping
+- `PIZZA-TOPPING-ID` &mdash; the `pizzaId` of the topping; example a UUID
+  provided by Topping
 
 #### Response body
 
@@ -260,10 +259,10 @@ identified as `PIE-PIZZA-ID`.
 
 #### Status codes
 
-- 200 (OK) - The topping is gone
-- 404 (Not found) - The site acronym is invalid
-- 404 (Not found) - The pie PIZZA-ID is invalid
-- 404 (Not found) - The topping PIZZA-ID is invalid
+- 200 (OK) &mdash; The topping is gone
+- 404 (Not found) &mdash; The pie PIZZA-ID is not currently available
+- 404 (Not found) &mdash; The topping PIZZA-TOPPING-ID is not currently
+  available
 
 ----
 
@@ -327,13 +326,15 @@ Each error payload provides structured error payloads:
 ```
 
 Note that for a 404 (Not found) it is helpful to include a message in the
-body indicating that the URL format is OK, but that the `PIZZA-ID` does not
-match an existing pie.
+body indicating that the URL format is OK, but that the `PIZZA-ID` or
+`PIZZA-TOPING-ID` does not match an existing pie or topping.
 This helps distinguish between a badly-formed URL and a missing resource.
 
-The message can be plain text (not processible by systems, but good for
+The error message can be plain text (not processible by systems, but good for
 humans), or a JSON body following agreed conventions (processible in software
 by callers).
+Using a JSON body for error is _particularly_ helpful as a remote UI can scan
+for the error cause, and provide a human message specific for their users.
 
 > [!NOTE]
 > The same comment about decorating the response body with metadata applies
