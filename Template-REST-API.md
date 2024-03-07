@@ -328,7 +328,8 @@ Each error payload provides structured error payloads:
     "apiVersion": "v1", // Make it easier to see your API versioning
     "status": "error", // Make it easier to filter responses
     "code": 599, // Same as the HTTP status code
-    "reason": "Today is too hot to work"
+    "reason": "Today is too hot to work",
+    "effectiveTime": "1970-01-01T00:00:00.000000Z"
 }
 ```
 
