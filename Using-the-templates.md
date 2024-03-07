@@ -79,6 +79,35 @@ markdown:
 > work with `pull`, `commit`, and `push`.
 > However, editing locally won't get you GitHub previews for your page.
 
+### Definition lists
+
+Definition lists are one of my favorite HTML features, however they have no
+native Markdown syntax without
+[extensions](https://www.markdownguide.org/extended-syntax/#definition-lists).
+Unfortunately these extensions are not supported in GitHub Markdown.
+
+Workarounds:
+
+- Use HTML directly in your Markdown for `<dl>`, `<dt>`, and `<dd>`.
+   When using these, you may not use markdown within the HTML section, and
+   need to use HTML tags.
+   Here is an example:
+   <dl>
+       <dt>Toppings</dt>
+       <dd>These are delicious bits added to your pizza pie.<br/>
+           Each topping gets a separate <code>PIZZA-TOPPING-ID</code>
+           distinct from the pizza pie (<code>PIZZA-ID</code>).
+       </dd>
+   </dl>
+- Fake the defintion list which is what I've done in these templates.
+   So I use a bullet list, and the `&mdash;` character (&mdash;) to describe
+   lists that would be nicer done with HTML definition lists.
+   In Markdown the above example would looks like:
+   - **Toppings** &mdash; These are delicious bits added to your pizza
+     pie.<br>
+     Each topping gets a separate `PIZZA-TOPPING-ID` distinct from the pizza
+     pie (`PIZZA-ID`).
+
 ### JSON code with comments
 
 When you inspect the markdown for templates, you'll spot ` ```javascript `
