@@ -303,11 +303,11 @@ Each success payload carries a JSON model in the `data` property:
 
 ```javascript
 {
-    "apiVersion": "v1",
-    "status": "success",
+    "apiVersion": "v1", // Make it easier to see your API versioning
+    "status": "success", // Make it easier to filter responses
     // A timestamp for this REST response; something a consumer can save or use
     "effectiveTime": "1970-01-01T00:00:00.000000Z",
-    "data": { } // or [ ] depending on endpoint 
+    "data": { } // or [ ] depending on the endpoint 
 }
 ```
 
@@ -325,9 +325,9 @@ Each error payload provides structured error payloads:
 
 ```javascript
 {
-    "apiVersion": "v1",
-    "status": "error",
-    "code": 599, // Same as the status code
+    "apiVersion": "v1", // Make it easier to see your API versioning
+    "status": "error", // Make it easier to filter responses
+    "code": 599, // Same as the HTTP status code
     "reason": "Today is too hot to work"
 }
 ```
