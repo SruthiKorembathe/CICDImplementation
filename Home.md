@@ -44,6 +44,8 @@ I like to edit the wiki locally, and take advantage of my IDE (such as
 [IntelliJ](https://www.jetbrains.com/help/idea/markdown.html) or
 [VSCode](https://code.visualstudio.com/docs/languages/markdown)) and the
 command line, but it is up to you what works best.
+See [below](#adding-images-and-screenshots-to-a-wiki-page) for a case when to
+switch back to the GitHub web UI.
 
 ### About commit messages
 
