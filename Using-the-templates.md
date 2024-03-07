@@ -103,6 +103,7 @@ Workarounds:
    So I use a bullet list, and the `&mdash;` character (&mdash;) to describe
    lists that would be nicer done with HTML definition lists.
    In Markdown the above example would looks like:
+
    - **Toppings** &mdash; These are delicious bits added to your pizza
      pie.<br>
      Each topping gets a separate `PIZZA-TOPPING-ID` distinct from the pizza
