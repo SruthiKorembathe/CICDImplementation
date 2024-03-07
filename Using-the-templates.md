@@ -133,8 +133,13 @@ And the same with `javascript` as the code fence language (` ```javascript`):
 ## What again is this API?
 
 What are "toppings" and "pies" and who is "Pizza"?
-These are examples for the templates templates, and are about pizza pies and
-the toppings on them.
+These are examples for REST API GitHub Markdown wiki documents, and are about
+pizza pies and the toppings on them.
 
 > [!NOTE]
 > I didn't tell you that up front, but you are clever and will figure it out.
+
+These templates are built from internal documentation at a global company
+wanting better communication across their projects, and to help integrations
+against their REST APIs.
+They are sanitized for your protection (really mine).
