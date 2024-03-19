@@ -103,4 +103,5 @@ Mermaid is the text-based diagramming tool used in GitHub wikis among other
 places.
 
 Here is a sample screenshot:
+
 ![image](https://github.com/binkley/wiki-docs/assets/186421/2c2cd321-fe83-439d-9db3-e98564609160)
