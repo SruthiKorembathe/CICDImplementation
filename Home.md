@@ -34,7 +34,7 @@ What a GitHub wiki is not good for:
 - Complex diagrams relying on special features of particular tools
 - Documentation access for business users unfamiliar with GitHub
 
-### Getting started
+## Getting started
 
 If your GitHub project does not yet have a wiki, go to the "Wiki" option in
 the GitHub UI for your project (it appears midway in the top navigation bar)
