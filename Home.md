@@ -3,6 +3,26 @@
 The above is the default starting content when you use the "wiki" feature in
 GitHub.
 
+### Why work with a GitHub wiki for your project?
+
+Firstly, wiki in GitHub are for _developers_, _architects_, and other
+technically-minded folks.
+Not everyone is familiar with GitHub.
+
+Secondly a wiki in GitHub is **not** for _business_ folks!
+They will prefer other document types and styles, such as documents,
+spreadsheets, and presentations, and sketch boards (Mural and the like).
+
+What GitHub wiki is good for is:
+- Documentation outside your source code
+- Diagrams: for sharing with developers, architect, business, and others
+- Capture of discussions such as ADRs (architecture decision records)
+- Keeping documentation under source control, just like your code
+- _Most importantly_, letting anyone developers or others edit
+  documentation easily, and in _plain text_
+
+### Getting started
+
 If your GitHub project does not yet have a wiki, go to the "Wiki" option in
 the GitHub UI for your project (it appears midway in the top navigation bar)
 and create the default first page.
