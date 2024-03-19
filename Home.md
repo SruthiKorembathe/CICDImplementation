@@ -24,6 +24,14 @@ content, and edit as needed:
 You will rename these to remove the "Template" prefixes, and can provide your
 readers with "REST API" and "JSON Models" wiki documentation pages.
 
+> [!NOTE]
+> The above and below `[[Page Name]]` syntax uses GitHub markdown features
+> (as does `[!NOTE]`).
+> In vanilla Markdown the page links are:
+> * [Template REST API](./Template-REST-API.md)
+> * [Template JSON Models](./Template-JSON-Models.md)
+> * [Examples of diagramming](./Examples-of-diagramming.md)
+
 ### Diagramming your architecture
 
 * [[Examples of diagramming]] &mdash; take advantage of Mermaid in your
@@ -77,7 +85,9 @@ places.
 
 Here is a sample screenshot:
 
-![image](https://github.com/binkley/wiki-docs/assets/186421/2c2cd321-fe83-439d-9db3-e98564609160)
+![Sample screenshot of Mermaid
+plugin](https://github.com/binkley/wiki-docs/assets/186421/2c2cd321-fe83-439d-9db3-e98564609160
+"Sample screenshot of Mermaid plugin")
 
 ## Adding images and screenshots to a wiki page
 
