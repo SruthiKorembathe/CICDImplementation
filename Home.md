@@ -54,6 +54,11 @@ pages, and then rename/edit:
 You will rename these to remove the "Template" prefixes, and can provide your
 readers with "REST API" and "JSON Models" wiki documentation pages.
 
+> [!NOTE]
+> You may want to update your "Sidebar" (right-hand side in the GitHub wiki
+> UI) to highlight these and other pages.
+> See [[Changing the right-hand navigation sidebar in GitHub UI]].
+
 ### Diagramming your architecture
 
 * [[Examples of diagramming]] &mdash; take advantage of Mermaid in your
