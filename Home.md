@@ -88,9 +88,10 @@ There are examples throughout this wiki page.
 
 ### Avoiding web editing
 
-I am unsure how to paste images locally into a wiki page with the cloned repo.
-The "assets" (images) created in the GitHub web UI are not part of cloning the
-wiki.
+I am unsure how to paste images locally into a wiki page with a cloned
+repository.
+The "assets" (images) created in the GitHub web UI are not part of cloning
+your wiki.
 
 However there is a perfectly good alternative: Add your image to your wiki
 repository, and link directly with `![image](./filename.extension)`.
