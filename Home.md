@@ -85,3 +85,19 @@ those you did not list:<br/>
 
 Locally the right-hand navigation sidebar is the `_Sidebar.md` file in your
 wiki repo clone.
+
+## Tooling tips
+
+Most IDEs these days support Markdown, and several can show previews right in
+the editor.
+Below is not a comprehensive list, just those I've tried this with.
+
+### JetBrains
+
+IntelliJ and the other JetBrains IDE products all support Markdown with
+preview either out-of-the-box or with a free plugin download supported by
+JetBrains.
+Even nicer, JetBrains has a Mermaid (diagrams) plugin that seamlessly works
+with the Markdown editor and with page preview.
+Mermaid is the text-based diagramming tool used in GitHub wikis among other
+places.
