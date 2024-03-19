@@ -13,6 +13,10 @@ administrator to enable the option in "Settings | General":
 
 ## Sample wiki pages
 
+A good resource for getting started or exploring features available to you is
+[Getting started with writing and formatting on
+  GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github).
+
 ### Documenting your REST API calls
 
 Start with these two pages in your wiki to document REST endpoints and JSON
@@ -24,18 +28,18 @@ content, and edit as needed:
 You will rename these to remove the "Template" prefixes, and can provide your
 readers with "REST API" and "JSON Models" wiki documentation pages.
 
-> [!NOTE]
-> The above and below `[[Page Name]]` syntax uses GitHub markdown features
-> (as does `[!NOTE]`).
-> In vanilla Markdown the page links are:
-> * [Template REST API](./Template-REST-API.md)
-> * [Template JSON Models](./Template-JSON-Models.md)
-> * [Examples of diagramming](./Examples-of-diagramming.md)
-
 ### Diagramming your architecture
 
 * [[Examples of diagramming]] &mdash; take advantage of Mermaid in your
   documentation
+
+> [!NOTE]
+> The above `[[Page Name]]` syntax uses GitHub markdown features (as does
+> `[!NOTE]`).
+> In vanilla Markdown the page links are:
+> * [Template REST API](./Template-REST-API.md)
+> * [Template JSON Models](./Template-JSON-Models.md)
+> * [Examples of diagramming](./Examples-of-diagramming.md)
 
 ## Working with the wiki locally on your machine
 
