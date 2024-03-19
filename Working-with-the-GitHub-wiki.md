@@ -53,23 +53,17 @@ Here is a sample screenshot:
 ![Sample screenshot of Mermaid
 plugin](https://github.com/binkley/wiki-docs/assets/186421/2c2cd321-fe83-439d-9db3-e98564609160
 "Sample screenshot of Mermaid plugin")
+
 ## Adding images and screenshots to a wiki page
 
-I add images by editing with the GitHub UI for the wiki and pasting directly
-into the edit box.
+You can add images by editing with the GitHub web UI for the wiki and pasting
+directly into the edit box.
 The UI automatically uploads the image, and inserts a link for you.
-There are examples throughout this wiki page.
+However the uploaded go into an "assets" area not part of the wiki repository,
 
-## Avoiding web editing
-
-I am unsure how to paste images locally into a wiki page with a cloned
-repository.
-The "assets" (images) created in the GitHub web UI are not part of cloning
-your wiki.
-
-However there is a perfectly good alternative: Add your image to your wiki
-repository, and link directly with `![image](./filename.extension)`.
-This also has the benefit of keeping your images as content in your source
+However there is an alternative: Add your image to your wiki repository, and
+link directly with `![image](./filename.extension)`.
+This also has the benefit of keeping your images as content in under source
 control.
 
 ## Changing the right-hand navigation sidebar in GitHub UI
