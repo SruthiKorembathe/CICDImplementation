@@ -13,13 +13,19 @@ Secondly a wiki in GitHub is **not** for _business_ folks!
 They will prefer other document types and styles, such as documents,
 spreadsheets, and presentations, and sketch boards (Mural and the like).
 
-What GitHub wiki is good for is:
-- Documentation outside your source code
+What a GitHub wiki is good for:
+- Any _open source_ project with code in GitHub
+- Documentation outside your source code such as your APIs
 - Diagrams: for sharing with developers, architect, business, and others
 - Capture of discussions such as ADRs (architecture decision records)
-- Keeping documentation under source control, just like your code
-- _Most importantly_, letting anyone developers or others edit
-  documentation easily, and in _plain text_
+- Keeping documentation under source control, just like your program code
+- _Most importantly_, letting anyone&mdash;developers or others&mdash;edit
+  documentation easily, and in _plain language text_ 
+
+What a GitHub wiki is not good for:
+- Storing proprietary documents; use links in the wiki for references
+- Complex diagrams relying on special features of particular tools
+- Documentation access for business users unfamiliar with GitHub
 
 ### Getting started
 
