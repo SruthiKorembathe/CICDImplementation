@@ -10,7 +10,7 @@ sidebar or elsewhere in your wiki pages.
 
 You can always use the "Pages" UI control above the sidebar ☝ to navigate
 (especially helpful for pages you have not yet added to the `_Sidebar.md`
-file).
+file), or to navigate the table of contents for a page.
 
 # Templates for REST API wiki docs
 
