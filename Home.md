@@ -45,8 +45,8 @@ you is [Getting started with writing and formatting on
 
 ### Documenting your REST API calls
 
-Start with these two pages in your wiki to document REST endpoints and JSON
-content, and edit as needed:
+For documenting your REST endpoints and JSON content, start with these two
+pages, and then rename/edit:
 
 * [[Template REST API]] &mdash; document your REST endpoints
 * [[Template JSON Models]] &mdash; document your JSON payloads
