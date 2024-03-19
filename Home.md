@@ -3,11 +3,12 @@
 The above is the default starting content when you use the "wiki" feature in
 GitHub.
 
-### Why work with a GitHub wiki for your project?
+### Why a GitHub wiki for your project?
 
 Firstly, a wiki in GitHub is for _developers_, _architects_, and other
 tech-minded folks.
 Not everyone is familiar with GitHub.
+This is _documentation_ for tech folks such as developers and architects.
 
 Secondly, a wiki in GitHub is **not** for _business_ folks!
 They will prefer other document types and styles, such as documents,
