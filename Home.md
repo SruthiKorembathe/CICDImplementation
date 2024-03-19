@@ -39,8 +39,8 @@ administrator to enable the option in "Settings | General":
 
 ## Sample wiki pages
 
-A good resource for getting started or exploring features available to you is
-[Getting started with writing and formatting on
+A good resource for getting started or exploring wiki features available to
+you is [Getting started with writing and formatting on
   GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github).
 
 ### Documenting your REST API calls
