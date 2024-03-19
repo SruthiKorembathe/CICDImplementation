@@ -12,7 +12,10 @@ You can always use the "Pages" UI control above the sidebar ☝ to navigate
 (especially helpful for pages you have not yet added to the `_Sidebar.md`
 file), or to navigate the table of contents for a page.
 
-# [[Working with the GitHub wiki]]
+# Getting started
+
+### [GitHub configuration](Home#getting-started)
+### [[Working with the GitHub wiki]]
 
 # Templates for REST API wiki docs
 
