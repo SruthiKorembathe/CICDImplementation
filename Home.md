@@ -86,9 +86,16 @@ into the edit box.
 The UI automatically uploads the image, and inserts a link for you.
 There are examples throughout this wiki page.
 
-> [!NOTE]
-> I am unsure how to do this locally with the cloned repo.
-> The "assets" (images) are not part of cloning the wiki.
+### Avoiding web editing
+
+I am unsure how to paste images locally into a wiki page with the cloned repo.
+The "assets" (images) created in the GitHub web UI are not part of cloning the
+wiki.
+
+However there is a perfectly good alternative: Add your image to your wiki
+repository, and link directly with `![image](./filename.extension)`.
+This also has the benefit of keeping your images as content in your source
+control.
 
 ## Changing the right-hand navigation sidebar in GitHub UI
 
