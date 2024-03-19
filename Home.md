@@ -8,7 +8,11 @@ GitHub.
 Firstly, a wiki in GitHub is for _developers_, _architects_, and other
 tech-minded folks.
 Not everyone is familiar with GitHub.
-This is _documentation_ for tech folks such as developers and architects.
+This is _documentation_ for tech folks such as developers, architects, and
+tech-minded business folks.
+In open-source, your "tech-minded business folks" are users of your project,
+meaning those who clone, or use as dependencies, and they may contribute
+improvements through GitHub PRs.
 
 Secondly, a wiki in GitHub is **not** for _business_ folks!
 They will prefer other document types and styles, such as documents,
