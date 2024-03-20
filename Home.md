@@ -5,20 +5,20 @@ GitHub.
 
 ## Why a GitHub wiki for your project?
 
-Firstly, a wiki in GitHub is for _developers_, _architects_, and other
-tech-minded folks.
-Not everyone is familiar with GitHub.
-This is _documentation_ for tech folks such as developers, architects, and
-tech-minded business folks.
-In open-source, your "tech-minded business folks" are users of your project,
-meaning those who clone, or use as dependencies, and they may contribute
-improvements through GitHub PRs.
+Firstly, a wiki in GitHub is for _developers_, _architects_, _business
+analysts_, and other tech-minded folks.
+Not everyone is comfortable with GitHub.
+GitHub wiki is best for _technical documentation_ targeting appropriate
+readers.
+In open source, or proprietary technical projects, your "tech-minded business
+folks" are also consumers (direct or indirect) of your project.
 
 Secondly, a wiki in GitHub is **not** for _business_ folks!
-They will prefer other document types and styles, such as documents,
-spreadsheets, and presentations, and sketch boards (Mural and the like).
-In open-source projects, this is less a concern, and target audiences are 
-usually tech folks.
+These will prefer other document types and styles, such as documents (Word,
+GDocs), spreadsheets (Excel, GSheets), presentations (PowerPoint, GSlides),
+and sketch boards (Mural and ilk).
+In open source projects, this is less of a concern, and target audiences are 
+usually technically savvy.
 
 What a GitHub wiki is good for:
 - Any _open source_ project with code in GitHub
