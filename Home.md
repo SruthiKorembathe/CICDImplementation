@@ -33,7 +33,8 @@ What a GitHub wiki is _not_ good for:
 - Storing proprietary documents; use links in the wiki for references
 - Complex diagrams relying on special features of particular tools
 - Large wikis with many pages needing organization: GitHub is a flat page
-  structure
+  structure (see [GitHub
+  discussion](https://github.com/orgs/community/discussions/23914))
 - Documentation access for business users unfamiliar with GitHub
 
 ## Getting started
