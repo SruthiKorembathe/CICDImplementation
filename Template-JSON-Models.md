@@ -18,7 +18,7 @@ You will see JSON for Pizza in various contexts:
 * [Toppings](#toppings) &mdash; Integrations post these to the Pizza API to
    change toppings. These are published back through your messaging system,
    and seen by all integrations and your reporting database
-    - [Onion](#onions)
+    - [Onion](#onion)
 
 > [!NOTE]
 > Here you break out the same information into shorter parts, again to ease
@@ -48,7 +48,7 @@ Every change to toppings returns pie JSON to show the full context.
 
 ## Toppings
 
-### Onions
+### Onion
 
 | Purpose | Endpoints | Client |
 |---------|-----------|--------|
@@ -66,3 +66,6 @@ Every change to toppings returns pie JSON to show the full context.
     "comments": "free text, else null"
 }
 ```
+
+See [`ONION_COLOR`](Template-Constants#onion-color) and
+[`ONION_STYLE`](Template-Constants#onion-style).

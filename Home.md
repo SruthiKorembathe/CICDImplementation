@@ -60,6 +60,7 @@ pages, and then rename/edit:
 
 * [[Template REST API]] &mdash; document your REST endpoints
 * [[Template JSON Models]] &mdash; document your JSON payloads
+* [[Template Constants]] &mdash; document your manifest constants
 
 You will rename these to remove the "Template" prefixes, and can provide your
 readers with "REST API" and "JSON Models" wiki documentation pages.
@@ -80,4 +81,5 @@ readers with "REST API" and "JSON Models" wiki documentation pages.
 > In vanilla Markdown the page links are:
 > * [Template REST API](./Template-REST-API.md)
 > * [Template JSON Models](./Template-JSON-Models.md)
+> * [Template Constants](./Template-Constants.md)
 > * [Examples of diagramming](./Examples-of-diagramming.md)

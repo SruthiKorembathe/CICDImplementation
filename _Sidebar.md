@@ -22,6 +22,7 @@ file), or to navigate the table of contents for a page.
 ### [[Using the templates]]
 ### [[Template REST API]]
 ### [[Template JSON Models]]
+### [[Template Constants]]
 
 # Diagrams in your wiki pages
 
