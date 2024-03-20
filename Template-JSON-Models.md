@@ -6,10 +6,10 @@
 
 You will see JSON for Pizza in various contexts:
 
-| JSON type | Context | Side effects | Impacts PSA dashboard |
-|-----------|---------|--------------|-----------------------|
-| [Pie](#pies) | Responses to calls for that alter toppings | All changes to pie context publish pie JSON to your messaging system.<br>Updates the `PIES` table in a reporting database, and your UI views update | Yes |
-| [Toppings](#toppings)<br>Each payload is for a specific topping type<br>(Or for DELETE is simply the URL) | Integrations post to Pizza API REST endpoint to change a specific topping. Pizza UI uses the same REST calls | All changes to pie context publish pie JSON to your messaging system.<br>Updates the affected "topping" tables in your reporting database (Onion, etc), and views update | Yes |
+| JSON type | Context | Side effects |
+|-----------|---------|--------------|
+| [Pie](#pies) | Responses to calls for that alter toppings | All changes to pie context publish pie JSON to your messaging system.<br>Updates the `PIES` table in a reporting database, and your UI views update |
+| [Toppings](#toppings)<br>Each payload is for a specific topping type<br>(Or for DELETE is simply the URL) | Integrations post to Pizza API REST endpoint to change a specific topping. Pizza UI uses the same REST calls | All changes to pie context publish pie JSON to your messaging system.<br>Updates the affected "topping" tables in your reporting database (Onion, etc), and views update |
 
 > [!NOTE]
 > This table is an upfront way of setting expectations for your API consumers,
