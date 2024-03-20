@@ -38,9 +38,10 @@ usually technically savvy.
   Mermaid (out-of-the-box with GitHub wikis) is an [excellent
   tool](https://mermaid.js.org/intro/), but may not have the feature set you
   want
-- Large wikis with many pages needing organization: GitHub is a flat page
-  structure (see [GitHub
-  discussion](https://github.com/orgs/community/discussions/23914))
+- Large wikis with many pages needing organization: a GitHub wiki is a flat
+  page structure (see [GitHub
+  discussion](https://github.com/orgs/community/discussions/23914)).
+  Organizing structure is through the _Navigation sidebar_
 - Documentation access for business users unfamiliar with GitHub
 
 ## Getting started
