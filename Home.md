@@ -29,9 +29,11 @@ What a GitHub wiki is good for:
 - _Most importantly_, let anyone&mdash;developers or others&mdash;edit
   documentation easily, and in _plain language text_ 
 
-What a GitHub wiki is not good for:
+What a GitHub wiki is _not_ good for:
 - Storing proprietary documents; use links in the wiki for references
 - Complex diagrams relying on special features of particular tools
+- Large wikis with many pages needing organization: GitHub is a flat page
+  structure
 - Documentation access for business users unfamiliar with GitHub
 
 ## Getting started
