@@ -30,7 +30,10 @@ What a GitHub wiki is good for:
   documentation easily, and in _plain language text_ 
 
 What a GitHub wiki is _not_ good for:
-- Storing proprietary documents; use links in the wiki for references
+- Storing proprietary documents; use links in the wiki for references to
+  external documents.
+  You can store these in the GitHub wiki repository, but it may not fit your
+  needs
 - Complex diagrams relying on special features of particular tools.
   Mermaid (out-of-the-box with GitHub wikis) is an [excellent
   tool](https://mermaid.js.org/intro/), but may not have the feature set you
