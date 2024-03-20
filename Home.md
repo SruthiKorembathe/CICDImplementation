@@ -17,16 +17,16 @@ improvements through GitHub PRs.
 Secondly, a wiki in GitHub is **not** for _business_ folks!
 They will prefer other document types and styles, such as documents,
 spreadsheets, and presentations, and sketch boards (Mural and the like).
-In open-source projects this is less a concern, and target audiences are 
+In open-source projects, this is less a concern, and target audiences are 
 usually tech folks.
 
 What a GitHub wiki is good for:
 - Any _open source_ project with code in GitHub
 - Documentation outside your source code such as your APIs
-- Diagrams: for sharing with developers, architect, business, and others
+- Diagrams: for sharing with developers, architects, business, and others
 - Capture of discussions such as ADRs (architecture decision records)
 - Keeping documentation under source control, just like your program code
-- _Most importantly_, letting anyone&mdash;developers or others&mdash;edit
+- _Most importantly_, let anyone&mdash;developers or others&mdash;edit
   documentation easily, and in _plain language text_ 
 
 What a GitHub wiki is not good for:
@@ -38,14 +38,14 @@ What a GitHub wiki is not good for:
 
 If your GitHub project does not yet have a wiki, go to the "Wiki" option in
 the GitHub UI for your project (it appears midway in the top navigation bar)
-and create the default first page.
+and create the default "Home" page.
 If you do not see the "Wiki" option, you may need a project owner or
 administrator to enable the option in "Settings | General":
 
 ![GitHub settings to enable a wiki](https://github.com/binkley/wiki-docs/assets/186421/8f75980b-84e3-41ad-aa7e-e5f1f1ac5f62 "GitHub settings to enable a wiki")
 
 After your wiki is ready, see [[Working with the GitHub wiki]] or look at
-sample wiki pages below.
+the sample wiki pages below.
 
 ## Sample wiki pages
 

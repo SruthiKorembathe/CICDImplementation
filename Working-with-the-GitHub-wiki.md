@@ -22,7 +22,7 @@ See [_Making the most of your editor_](#making-the-most-of-your-editor).
 
 ## About commit messages
 
-When you edit in the GitHub UI, the default commit message look like:
+When you edit in the GitHub UI, the default commit message looks like:
 
 > Updated \<a page name such as "HOME"\> (markdown)
 
@@ -32,7 +32,7 @@ You can give a commit message in the UI at the bottom of the page:<br/>
 And you can always give a meaningful commit message when working locally with
 `git commit -m <your message>` (and then pushing your change).
 
-## Making the most of your personal editor
+## Making the most of your editor
 
 Most IDEs these days support Markdown, and several can show previews right in
 the editor.
@@ -59,9 +59,9 @@ plugin](https://github.com/binkley/wiki-docs/assets/186421/2c2cd321-fe83-439d-9d
 You can add images by editing with the GitHub web UI for the wiki and pasting
 directly into the edit box.
 The UI automatically uploads the image, and inserts a link for you.
-However the uploaded go into an "assets" area not part of the wiki repository,
+However, the uploaded go into an "assets" area not part of the wiki repository,
 
-However there is an alternative: Add your image to your wiki repository, and
+There is an alternative: Add your image to your wiki repository, and
 link directly with `![image](./filename.extension)`.
 This also has the benefit of keeping your images as content in under source
 control.

@@ -1,6 +1,6 @@
 _Everyone loves diagrams!_
 
-Be liberal in use of diagrams in your wiki.
+Be liberal in the use of diagrams in your wiki.
 It is a solid feature of GitHub, and you should take advantage of what your
 tools provide you.
 
@@ -12,13 +12,13 @@ tools provide you.
 
 ## OK, but where I can learn more about diagramming in my wiki?
 
-You key goto resource on Mermaid is [_About
+Your key goto resource on Mermaid is [_About
 Mermaid_](https://mermaid.js.org/intro/) (the documentation for each diagram
 type).
-* Typically in architecture you use the
+* Typically, in architecture you use the
   [_Flowchart_](https://mermaid.js.org/syntax/flowchart.html) type which shows
   relationships among parts of your system; this is the kind of diagram you
-  might draw at a whiteboard
+  might draw on a whiteboard
 * [_Sequence Diagram_](https://mermaid.js.org/syntax/sequenceDiagram.html) is
   helpful to clarify the order of interactions
 * [_Entity Relationship
@@ -45,7 +45,7 @@ UI -->|UI calls API| API
 API -->|API responds| UI
 ```
 
-Typically I only show one side of this interaction to emphasize dependencies,
+Typically, I only show one side of this interaction to emphasize dependencies,
 and reserve the back and forth for [_sequence
 diagrams_](#simple-sequence-diagram-example):
 
