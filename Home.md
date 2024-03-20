@@ -7,7 +7,7 @@ GitHub.
 
 Firstly, a wiki in GitHub is for _developers_, _architects_, _business
 analysts_, and other tech-minded folks.
-Not everyone is comfortable with GitHub.
+**Not everyone is comfortable with GitHub.**
 GitHub wiki is best for _technical documentation_ targeting appropriate
 readers.
 In open source, or proprietary technical projects, your "tech-minded business
