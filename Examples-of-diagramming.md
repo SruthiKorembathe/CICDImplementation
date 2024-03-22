@@ -112,11 +112,13 @@ sequenceDiagram
 > Mixing `+`/`-` to call out complete interactions does not work the same when
 > using `alt` to show errors.
 > You can only complete the interaction from one side of "alternatives";
-> I typically pick the happy path for this.
+> I typically pick the happy path for this, and call out sad paths as
+> alternatives.
 
 ## Simple ERD diagram example
 
 I typically use ERD diagrams to:
+
 - Do the classic thing of describing SQL tables and their relationships
 - Visually represent JSON to explain the properties
 
@@ -124,10 +126,16 @@ Here is a simple ERD diagram to represent JSON with Mermaid:
 
 ```mermaid
 erDiagram
-  Onions {
-    timestamp startTime "in UTC"
-    UUID pizzaId 
-    UUID toppingId "support multiple onion toppings"
+  PizzaPie {
+    string pieId "each pie is unique (this is a UUID)"
+    string orderTime "a timestamp in UTC"
+    string comments "customer special requests"
+  }
+
+  OnionTopping {
+    string pieId "refers to the pizza pie (this is a UUID)" 
+    string toppingId "support multiple toppings including onions (this is a UUID)"
+    string orderTime "a timestamp in UTC"
     string type "always 'ONIONS' for this topping"
     string color "one of: GREEN, RED, or WHITE"
     string style "one of: FRESH or GRILLED"
@@ -135,24 +143,28 @@ erDiagram
   }
 ```
 
-Here is the example expanded to show a database design:
+Here is the example expanded to show a SQL design:
+
+> [!TIP]
+> You shoud update ERD diagrams to match the features in your database, such
+> as UUID and timestamp (in UTC) support.
 
 ```mermaid
 erDiagram
   PIZZA_PIE {
-    UUID pizzaId PK
-    timestamp startTime "in UTC"
-    string comments "customer special request"
+    uuid PIE_ID PK "each pie is unique (for DBs not supporting UUID, a string)"
+    timestamp ORDER_TIME "in UTC"
+    string COMMENTS "customer special requests"
   }
 
   TOPPING_ONION {
-    UUID pizzaId FK
-    UUID toppingId PK "support multiple toppings"
-    timestamp startTime "in UTC"
-    string type "always 'ONIONS' for this topping"
-    string color "one of: GREEN, RED, or WHITE"
-    string style "one of: FRESH or GRILLED"
-    string comments "customer special request"
+    uuid PIE_ID FK "refers to the pizza pie; for DBs not supporting UUID, a string"
+    uuid TOPPING_ID PK "support multiple toppings including onions; for DBs not supporting UUID, a string"
+    timestamp ORDER_TIME "in UTC"
+    text TOPPING_TYPE "always 'ONIONS' for this topping; some DBs support enums"
+    text ONION_COLOR "one of: GREEN, RED, or WHITE; some DBs support enums"
+    text ONION_STYLE "one of: FRESH or GRILLED; some DBs support enums"
+    text ONION_COMMENTS "customer special requests"
   }
 
   PIZZA_PIE ||--o{ TOPPING_ONION: toppings
