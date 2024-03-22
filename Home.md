@@ -79,7 +79,7 @@ readers with "REST API" and "JSON Models" wiki documentation pages.
 > [!NOTE]
 > You may want to update your "Sidebar" (right-hand side in the GitHub wiki
 > UI) to highlight these and other pages.
-> See [[Changing the right-hand navigation sidebar in GitHub UI]].
+> The example `_Sidebar.md` talks about this.
 
 ### Diagramming your architecture
 

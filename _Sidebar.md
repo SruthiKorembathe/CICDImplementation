@@ -3,10 +3,11 @@ this on the right top of all wiki pages).
 By default GitHub simply lists your pages in alphabetical order.
 
 This side bar is named `_Sidebar.md` in the source files when you clone the
-wiki, or you can use the "crayon" to edit in the UI.
+wiki, or you can use the "crayon" icon to edit in the UI.
 
 Use `[[Page title]]` with double brackets when referencing pages here in the
 sidebar or elsewhere in your wiki pages.
+And use the `#`, `##`, etc. style in Markdown to format the sidebar.
 
 > [!NOTE]
 > Delete all of the above but keep the below explanation to users on how to
