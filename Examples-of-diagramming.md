@@ -53,7 +53,7 @@ flowchart LR
   API[Your API]
 
 UI -->|UI calls API| API
-API -->|API responds| UI
+API -.->|API responds| UI
 ```
 
 Typically, I only show one side of this interaction to emphasize dependencies,
@@ -77,7 +77,7 @@ flowchart LR
   API[Your API]
 
 UI -->|①<br>UI calls API| API
-API -->|②<br>API responds| UI
+API -.->|②<br>API responds| UI
 ```
 
 ## Simple sequence diagram example
