@@ -14,6 +14,8 @@ file), or to navigate the table of contents for a page.
 
 # Getting started
 
+## Home
+
 ### [GitHub configuration](Home#getting-started)
 ### [[Working with the GitHub wiki]]
 
