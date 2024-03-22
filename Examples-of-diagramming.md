@@ -29,10 +29,12 @@ type).
   Diagram_](https://mermaid.js.org/syntax/classDiagram.html) is a classic but
   not typically shown outside your team
 
-Additionally, you may want to show a sequence in plain diagrams (flowcharts).
-A great resource is UNICODE which has "circled numbers" you can use.
-Start with ["circle 1"](https://graphemica.com/%E2%91%A0) and progress to 2,
-3, etc. as needed.
+Additionally, you may want to show sequence in diagrams (flowcharts in
+Mermaid).
+A great resource is UNICODE which has "circled numbers" you can use; each
+UNICODE symbol is a single character supported in GitHub and most editors.
+Start with [① (circle 1)](https://graphemica.com/%E2%91%A0) and progress to 2
+(②), 3 (③), etc. as needed.
 There are other excellent characters you can paste directly into your wiki
 such as ["point up"](https://graphemica.com/%E2%98%9D).
 Typically your browser for [Graphemica](https://graphemica.com) shows a
