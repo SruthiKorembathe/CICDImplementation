@@ -5,8 +5,9 @@ It is a solid feature of GitHub, and you should take advantage of what your
 tools provide you.
 
 > [!TIP]
-> In general as you edit diagrams in the wiki, the GitHub web UI experience
-> works better as you can toggle between editing and previews:
+> In general as you edit diagrams in the wiki, unless you are comfortable with
+> syntax, the GitHub web UI experience might be easier as you toggle between
+> "Edit" and "Preview" modes:
 
 ![image](https://github.com/binkley/wiki-docs/assets/186421/8b41ba18-338a-4311-9ec7-8668cd8a1003)
 
@@ -29,10 +30,10 @@ type).
   Diagram_](https://mermaid.js.org/syntax/classDiagram.html) is a classic but
   not typically shown outside your team
 
-Additionally, you may want to show sequence in diagrams (flowcharts in
-Mermaid).
-A great resource is UNICODE which has "circled numbers" you can use; each
-UNICODE symbol is a single character supported in GitHub and most editors.
+Additionally, in both diagrams and wiki text you may want to show characters
+difficult to type but available in UNICODE.
+"Circled numbers" are an example; each UNICODE symbol is a single character
+supported in GitHub and most editors.
 Start with [① (circle 1)](https://graphemica.com/%E2%91%A0) and progress to 2
 (②), 3 (③), etc. as needed.
 There are other excellent characters you can paste directly into your wiki
