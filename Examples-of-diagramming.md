@@ -70,6 +70,10 @@ UI -->|①<br>UI calls API| API
 API -.->|②<br>API responds| UI
 ```
 
+See [_A tip on special
+characters_](Using-the-templates#a-tip-on-special-characters) for using 
+"circled numbers" in diagrams.
+
 ## Simple sequence diagram example
 
 Here is a simple sequence diagram with Mermaid.

@@ -69,6 +69,7 @@ Markdown code:
 > repository for your project.
 > This lets you _use VSCode_ for editing if you prefer that over the web UI in
 > GitHub.
+> (See [[Working with the GitHub wiki]].)
 >
 > For example <https://github.com/your-github-id-or-org/pizza-pie-api.wiki> is
 > the repo URL of the wiki for this file.
@@ -77,7 +78,11 @@ Markdown code:
 >
 > To edit this page locally, you would use `git clone` for the wiki repo, and
 > work with `pull`, `commit`, and `push`.
-> However, editing locally won't get you GitHub previews for your page.
+> However, editing locally won't get you GitHub previews for your page 
+> without [plugins for your
+> editor](working-with-the-github-wiki#making-the-most-of-your-editor).
+
+#### A tip on special characters
 
 > [!TIP]
 > Here is another tip useful for any wiki editing:
