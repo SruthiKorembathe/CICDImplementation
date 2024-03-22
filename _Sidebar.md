@@ -15,8 +15,7 @@ sidebar or elsewhere in your wiki pages.
 When you start with the "Wiki" option in GitHub at the top, it takes you to
 the "Home" page.
 You can always use the "Pages" UI control above the sidebar ☝ to navigate
-(especially helpful for pages you have not yet added to the `_Sidebar.md`
-file), or to navigate the table of contents for a page.
+to any pages not here, or to navigate the table of contents for a page.
 
 # Getting started
 
