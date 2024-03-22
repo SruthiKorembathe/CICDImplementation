@@ -79,6 +79,22 @@ Markdown code:
 > work with `pull`, `commit`, and `push`.
 > However, editing locally won't get you GitHub previews for your page.
 
+> [!TIP]
+> Here is another tip useful for any wiki editing:
+> UNICODE charaters are supported in GitHub and most editors.
+> In GitHub wiki text and diagrams (including Mermaid) you may want to show
+> characters difficult to type but available in UNICODE.
+>
+> An example is [① (circle 1)](https://graphemica.com/%E2%91%A0), and
+> progressing to 2 (②), 3 (③), etc.
+> (I use these in diagrams to highlight flow sequence.)
+>
+> There are other excellent characters you can paste directly into your wiki
+> such as ["point up"](https://graphemica.com/%E2%98%9D) or
+> ["tada"](https://graphemica.com/%F0%9F%8E%89).
+> Typically your browser shows a copy/pasteable character in the URL bar for
+> [Graphemica](https://graphemica.com).
+
 ### Definition lists
 
 Definition lists are one of my favorite HTML features, however they have no

@@ -30,17 +30,6 @@ type).
   Diagram_](https://mermaid.js.org/syntax/classDiagram.html) is a classic but
   not typically shown outside your team
 
-Additionally, in both diagrams and wiki text you may want to show characters
-difficult to type but available in UNICODE.
-"Circled numbers" are an example; each UNICODE symbol is a single character
-supported in GitHub and most editors.
-Start with [① (circle 1)](https://graphemica.com/%E2%91%A0) and progress to 2
-(②), 3 (③), etc. as needed.
-There are other excellent characters you can paste directly into your wiki
-such as ["point up"](https://graphemica.com/%E2%98%9D).
-Typically your browser for [Graphemica](https://graphemica.com) shows a
-copy/pastable character in the URL bar.
-
 ## Simple flowchart example
 
 Here is a simple diagram (flowchart) with Mermaid.
