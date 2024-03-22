@@ -2,6 +2,7 @@
 
 The above is the default starting content when you use the "wiki" feature in
 GitHub.
+It lives in your [`Home.md`](Home) page.
 
 ## Why a GitHub wiki for your project?
 
