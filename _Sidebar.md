@@ -1,5 +1,5 @@
-This is an example sidebar for your GitHub wiki (GitHub by default shows this
-on the right top of all wiki pages).
+This is an example **sidebar** for your GitHub wiki (GitHub by default shows
+this on the right top of all wiki pages).
 By default GitHub simply lists your pages in alphabetical order.
 
 This side bar is named `_Sidebar.md` in the source files when you clone the
