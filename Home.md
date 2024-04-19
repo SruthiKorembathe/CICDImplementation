@@ -21,7 +21,16 @@ and sketch boards (Mural and ilk).
 In open source projects, this is less of a concern, and target audiences are 
 usually technically savvy.
 
+> [!TIP]
+> You may find it helpful to view your wiki pages _locally_ while you edit
+> them (if preferring local editors to the GitHub UI editor).
+> If so, a tool I use for viewing Markdown is
+> [`mdv`](https://github.com/binkley/shell/blob/master/mdv) to see how changes
+> look on the page. (This does not work for [Mermaid
+> diagrams](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)).
+
 ### What a GitHub wiki is good for
+
 - Any _open source_ project with code in GitHub
 - Documentation outside your source code such as your APIs
 - Diagrams: for sharing with developers, architects, business, and others
@@ -31,6 +40,7 @@ usually technically savvy.
   documentation easily, and in _plain language text_ 
 
 ### What a GitHub wiki is _not_ good for
+
 - Storing proprietary documents; use links in the wiki for references to
   external documents.
   You can store these in the GitHub wiki repository, but it may not fit your
