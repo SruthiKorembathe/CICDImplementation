@@ -33,6 +33,8 @@ usually technically savvy.
 > * Command line &mdash; A good viewing tool is
 >   [`mdv`](https://github.com/binkley/shell/blob/master/mdv) but without
 >   support for wiki diagrams.
+>   It depends on [`pandoc`](https://pandoc.org/) and the command-line browser
+>   of your choice (`lynx` by default).
 
 ### What a GitHub wiki is good for
 
