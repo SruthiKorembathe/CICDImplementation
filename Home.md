@@ -24,10 +24,15 @@ usually technically savvy.
 > [!TIP]
 > You may find it helpful to view your wiki pages _locally_ while you edit
 > them (if preferring local editors to the GitHub UI editor).
-> If so, a tool I use for viewing Markdown is
-> [`mdv`](https://github.com/binkley/shell/blob/master/mdv) to see how changes
-> look on the page. (This does not work for [Mermaid
-> diagrams](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)).
+> If so, tools are available to you.
+> My choices include:
+> * IntelliJ &mdash; Good editing tools and views wiki diagrams out of the
+>   box.
+> * VSCode &mdash; Good editing tools and with extensions supports viewing
+>   wiki diagrams.
+> * Command line &mdash; A good viewing tool is
+>   [`mdv`](https://github.com/binkley/shell/blob/master/mdv) but without
+>   support for wiki diagrams.
 
 ### What a GitHub wiki is good for
 
