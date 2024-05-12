@@ -18,6 +18,10 @@ the "Home" page.
 You can always use the "Pages" UI control above the sidebar ☝ to navigate
 to any pages not here, or to navigate the table of contents for a page.
 
+> [!NOTE]
+> You can use markdown headings (`#`, `##`, etc) to organize structure in the
+> sidebar, illustrated below.
+
 # Getting started
 
 ### [GitHub configuration](Home#getting-started)
