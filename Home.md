@@ -75,6 +75,14 @@ administrator to enable the option in "Settings | General":
 After your wiki is ready, see [[Working with the GitHub wiki]] or look at
 the sample wiki pages below.
 
+## Getting started
+
+To use a wiki in your GitHub project, see [_Documenting your project with
+wikis_](https://docs.github.com/en/communities/documenting-your-project-with-wikis).
+
+You may need to enable this feature in your project settings:
+![Enable wiki](enable-wiki.png)
+
 ## Sample wiki pages
 
 A good resource for getting started or exploring wiki features available to
