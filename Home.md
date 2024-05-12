@@ -70,18 +70,12 @@ and create the default "Home" page.
 If you do not see the "Wiki" option, you may need a project owner or
 administrator to enable the option in "Settings | General":
 
-![GitHub settings to enable a wiki](https://github.com/binkley/wiki-docs/assets/186421/8f75980b-84e3-41ad-aa7e-e5f1f1ac5f62 "GitHub settings to enable a wiki")
+![Enable wiki](enable-wiki.png)
 
+For more details on GitHub wikis, see [_Documenting your project with
+wikis_](https://docs.github.com/en/communities/documenting-your-project-with-wikis).
 After your wiki is ready, see [[Working with the GitHub wiki]] or look at
 the sample wiki pages below.
-
-## Getting started
-
-To use a wiki in your GitHub project, see [_Documenting your project with
-wikis_](https://docs.github.com/en/communities/documenting-your-project-with-wikis).
-
-You may need to enable this feature in your project settings:
-![Enable wiki](enable-wiki.png)
 
 ## Sample wiki pages
 
