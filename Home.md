@@ -75,7 +75,7 @@ administrator to enable the option in "Settings | General":
 For more details on GitHub wikis, see [_Documenting your project with
 wikis_](https://docs.github.com/en/communities/documenting-your-project-with-wikis).
 After your wiki is ready, see [[Working with the GitHub wiki]] or look at
-the sample wiki pages below.
+[_Sample wiki pages_](#sample-wiki-pages) below.
 
 ## Sample wiki pages
 
