@@ -42,6 +42,11 @@ You should take advantage of notes, tips, and other options in your own API
 documentation, especially if an endpoint for endpoints with non-obvious
 behavior or side effects, and call out helpful remarks.
 
+> [!CAUTION]
+> Use of GitHub's markdown for "notes" and so forth work in a repo
+> `README.md`, in wiki pages, but does not work is some other contexts.
+> You need to try them yourself, and see what works and does not.
+
 Throughout the templates, I'll call out _notes_ and _tips_ like this in the
 Markdown code:
 
