@@ -56,7 +56,7 @@ Markdown code:
 > You can read more on how callout-style remarks look in GitHub Markdown here:
 > [_...highlight a "Note" and "Warning..."_](https://github.com/orgs/community/discussions/16925).
 > Full options for GitHub Markdown in your documentation include as part of
-> `[!style]` where "style" is one of:
+> `[!STYLE]` where "STYLE" is one of:
 > - `NOTE` &mdash; used in this template
 > - `TIP` &mdash; used in this template
 > - `IMPORTANT` &mdash; help the API caller to success
