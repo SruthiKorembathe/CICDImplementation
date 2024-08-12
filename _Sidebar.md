@@ -15,12 +15,16 @@ And use the `#`, `##`, etc. style in Markdown to format the sidebar.
 
 When you start with the "Wiki" option in GitHub at the top, it takes you to
 the "Home" page.
-You can always use the "Pages" UI control above the sidebar ☝ to navigate
-to any pages not here, or to navigate the table of contents for a page.
+
+You can always use the "Pages" UI control above this sidebar ☝  to navigate
+around all pages alphabetically (even pages not in this sidebar), to navigate
+the outline for each page, or for a search box.
 
 > [!NOTE]
-> You can use markdown headings (`#`, `##`, etc) to organize structure in the
-> sidebar, illustrated below.
+> Markdown works in sidebars, such as headings (`#`, `##`, etc) to organize
+> structure in the sidebar, illustrated below.
+
+Here is the suggested reading order:
 
 # Getting started
 
