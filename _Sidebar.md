@@ -5,6 +5,11 @@ By default GitHub simply lists your pages in alphabetical order.
 This side bar is named `_Sidebar.md` in the source files when you clone the
 wiki, or you can use the "crayon" icon to edit in the UI.
 
+> [!NOTE]
+> When you use the "Wiki" option on GitHub's top bar, it takes you to the
+> "Home" page (`Home.md`): you cannot rename this page, and GitHub uses the
+> page name for the title at the page top.
+
 Use `[[Page title]]` with double brackets when referencing pages here in the
 sidebar or elsewhere in your wiki pages.
 And use the `#`, `##`, etc. style in Markdown to format the sidebar.

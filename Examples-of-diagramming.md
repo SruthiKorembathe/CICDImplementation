@@ -163,7 +163,7 @@ erDiagram
 
 > [!TIP]
 > You shoud update ERD diagrams to match the features in your database, such
-> as UUID and timestamp (in UTC) support.
+> as support for UUIDs and timestamps (in UTC).
 
 > [!TIP]
 > See ["Relationship
