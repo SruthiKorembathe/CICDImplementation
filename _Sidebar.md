@@ -14,12 +14,9 @@ Use `[[Page title]]` with double brackets when referencing pages here in the
 sidebar or elsewhere in your wiki pages.
 And use the `#`, `##`, etc. style in Markdown to format the sidebar.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Delete all of the above but keep the below explanation to users on how to
 > use the "Pages" UI control.
-
-When you start with the "Wiki" option in GitHub at the top, it takes you to
-the "Home" page.
 
 You can always use the "Pages" UI control above this sidebar ☝  to navigate
 around all pages alphabetically (even pages not in this sidebar), to navigate
