@@ -52,11 +52,11 @@ Markdown code:
 
 > [!NOTE]
 > Here is the first note.<br>
-> Note that this is how notes look like.<br>
-> You can read more on how callout-style remarks look in GitHub Markdown here:
+> Note that this note is how notes look like: they are blockquotes.<br>
+> You can read more on this in
 > [_...highlight a "Note" and "Warning..."_](https://github.com/orgs/community/discussions/16925).
-> Full options for GitHub Markdown in your documentation include as part of
-> `[!STYLE]` where "STYLE" is one of:
+> Full options in wiki GitHub Markdown to use between opening `> [!` and
+> closing `]`, ie, `[!STYLE]` where "STYLE" is one of:
 > - `NOTE` &mdash; used in this template
 > - `TIP` &mdash; used in this template
 > - `IMPORTANT` &mdash; help the API caller to success
@@ -67,6 +67,7 @@ Markdown code:
 >   usually does not require additional user interaction.
 >   An example is a REST call that modifies a remote database visible to
 >   others.
+> Keep these on a separate line from the rest of the blockquote content.
 
 > [!TIP]
 > Here is the first tip.<br>

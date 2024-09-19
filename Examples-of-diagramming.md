@@ -17,23 +17,24 @@ Your key goto resource on Mermaid is [_About
 Mermaid_](https://mermaid.js.org/intro/) (the documentation for each diagram
 type).
 * Typically, in architecture you use the
-  [_Flowchart_](https://mermaid.js.org/syntax/flowchart.html) type which shows
+  [_Flowchart_](https://mermaid.js.org/syntax/flowchart.html) type to show
   relationships among parts of your system; this is the kind of diagram you
-  might draw on a whiteboard
+  might draw on a whiteboard.
 * [_Sequence Diagram_](https://mermaid.js.org/syntax/sequenceDiagram.html) is
-  helpful to clarify the order of interactions
+  helpful to clarify the order of interactions. A typical example is a UI
+  "lane" on the left, your API in the middle, and a DB on the right.
 * [_Entity Relationship
   Diagram_](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) is
-  great for documenting your database, and works to describe structure and
-  properties in your JSON
+  great for documenting your database and also your JSON structure and
+  properties.
 * For developers working in the code base, [_Class
   Diagram_](https://mermaid.js.org/syntax/classDiagram.html) is a classic but
-  not typically shown outside your team
+  not typically shown outside your team.
 
 ## Simple flowchart example
 
 Here is a simple diagram (flowchart) with Mermaid.
-You can embed this directly in your wiki documentation using a code fence.<br/>
+You can embed this directly in your wiki documentation using a code fence.
 You may find that reordering nodes and relationships gives a better overall
 diagram.
 
@@ -58,8 +59,8 @@ flowchart LR
 UI -->|UI calls API| API
 ```
 
-If your interactions are multiple and complex, you can use UNICODE "circled
-numbers" to help the reader follow:
+If your interactions are multiple and complex, you can use [UNICODE "circled
+digits"](https://graphemica.com/search?q=circled) to help the reader follow:
 
 ```mermaid
 flowchart LR
@@ -77,9 +78,9 @@ characters_](Using-the-templates#a-tip-on-special-characters) for using
 ## Simple sequence diagram example
 
 Here is a simple sequence diagram with Mermaid.
-You can embed this directly in your wiki documentation using a code fence.<br/>
-You may find it more helpful to use sequence diagrams only for deep diving into
-specific interactions;
+You can embed this directly in your wiki documentation using a code fence.
+You may find it more helpful to use sequence diagrams only for deep diving
+into specific interactions;
 some readers may find the level of detail overwhelming, and others will love
 you for it.
 
@@ -139,10 +140,6 @@ erDiagram
 
 Here is the example expanded to show a SQL design:
 
-> [!TIP]
-> You shoud update ERD diagrams to match the features in your database, such
-> as UUID and timestamp (in UTC) support.
-
 ```mermaid
 erDiagram
   PIZZA_PIE {
@@ -163,6 +160,10 @@ erDiagram
 
   PIZZA_PIE ||--o{ TOPPING_ONION: toppings
 ```
+
+> [!TIP]
+> You shoud update ERD diagrams to match the features in your database, such
+> as UUID and timestamp (in UTC) support.
 
 > [!TIP]
 > See ["Relationship
