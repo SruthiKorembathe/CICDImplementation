@@ -15,8 +15,10 @@ sidebar or elsewhere in your wiki pages.
 And use the `#`, `##`, etc. style in Markdown to format the sidebar.
 
 > [!IMPORTANT]
-> Delete all of the above but keep the below explanation to users on how to
-> use the "Pages" UI control.
+> Delete this callout and all of the above, but keep the below explanation
+> to help new readers use the "Pages" UI control.
+
+---
 
 You can always use the "Pages" UI control above this sidebar ☝  to navigate
 around all pages alphabetically (even pages not in this sidebar), to navigate
