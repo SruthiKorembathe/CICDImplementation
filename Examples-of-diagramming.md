@@ -98,7 +98,7 @@ sequenceDiagram
   UI ->>+ API: GET some stuff
   alt Status is 200
     API -->>- UI: Here is the stuff in the response body
-  else Status is 400 or worse
+  else Status is 4xx or 5xx
     API -->> UI: Here is an error response body
   end
 ```
