@@ -20,6 +20,28 @@ switch back to the GitHub web UI.
 
 See [_Making the most of your editor_](#making-the-most-of-your-editor).
 
+## About your workflow
+
+When editing locally, and checking how it actually looks in GitHub, you will
+find different _[git
+workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)_
+useful.
+For this sample wiki, I use a simple "push on main" workflow:
+
+```sh
+$ git commit -m 'Some message'
+$ git push
+```
+or for simple corrections after visual checking in GitHub:
+
+```sh
+$ git commit --amend --no-edit
+$ git push --force-with-lease
+```
+
+With a team, or when tracking documentation changes (say integration or
+external publishing), you will want something more helpful.
+
 ## About commit messages
 
 When you edit in the GitHub UI, the default commit message looks like:
