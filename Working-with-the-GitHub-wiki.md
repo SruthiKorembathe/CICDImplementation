@@ -80,4 +80,5 @@ those you did not list:<br/>
 ![Showing in GitHub how to find all pages when you have a custom sidebar](https://github.com/binkley/wiki-docs/assets/186421/decb1b18-0318-44d2-bb39-d48c9aa8a570 "Showing in GitHub how to find all pages when you have a custom sidebar")
 
 Locally the right-hand navigation sidebar is the `_Sidebar.md` file in your
-wiki repo clone.
+wiki repo clone, and editing this file locally works as expected; however, you
+may find the GitHub editor better for seeing how your changes lay out.
