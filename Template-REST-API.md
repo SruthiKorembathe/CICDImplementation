@@ -40,8 +40,8 @@ The endpoint documentation has technical details for you as the consumer of the 
 
 > [!NOTE]
 > These symbols are UNICODE characters pasted directly into this file.
-> Graphemica is a great site for finding suitable UNICODE, for example the
-> [✳️ ](https://graphemica.com/%E2%9C%B3) above.
+> [Graphemica](https://graphemica.com/) is a great site for finding suitable
+> UNICODE, for example the [✳️ ](https://graphemica.com/%E2%9C%B3) above.
 
 ### Responses for all API calls
 
