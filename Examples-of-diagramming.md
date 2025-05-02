@@ -1,13 +1,15 @@
 _Everyone loves diagrams!_
 
 Be liberal in the use of diagrams in your wiki.
+These rely on use of `Mermaid.js` syntax embedded in your pages.
 It is a solid feature of GitHub, and you should take advantage of what your
-tools provide you.
+tools provide.
 
 > [!TIP]
 > In general as you edit diagrams in the wiki, unless you are comfortable with
-> syntax, the GitHub web UI experience might be easier as you toggle between
-> "Edit" and "Preview" modes:
+> direct syntax editing and visualizing the results, the GitHub web UI
+> experience is better as you toggle between "Write" (edit) and "Preview"
+> modes:
 
 ![image](https://github.com/binkley/wiki-docs/assets/186421/8b41ba18-338a-4311-9ec7-8668cd8a1003)
 
@@ -86,8 +88,8 @@ you for it.
 
 ```mermaid
 sequenceDiagram
-  UI ->>+ API: GET some stuff
-  API -->>- UI: Here is the stuff plus a status code
+  UI ->>+ API: GET pizza status
+  API -->>- UI: Here is the response body, such as "pizza still cooking"
 ```
 
 Here is the same interaction but [with success/failure HTTP status
@@ -95,11 +97,12 @@ codes](https://mermaid.js.org/syntax/sequenceDiagram.html#alt):
 
 ```mermaid
 sequenceDiagram
-  UI ->>+ API: GET some stuff
+  UI ->>+ API: GET pizza status
   alt Status is 200
-    API -->>- UI: Here is the stuff in the response body
+    API -->>- UI: Here is the response body, such as "pizza still cooking"
   else Status is 4xx or 5xx
-    API -->> UI: Here is an error response body
+    API -->> UI: Here is an error response body, such as "is this an open pizza order?" (404)
+    API -->> UI: Here is an error response body, such as "oops! Please retry" (500)
   end
 ```
 
