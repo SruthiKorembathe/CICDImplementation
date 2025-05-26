@@ -5,7 +5,8 @@
 > [!TIP]
 > It is best to start your documentation page with internal page links that
 > let folks jump quickly to into your API (such as [Toppings](#toppings) later
-> in this page).
+> in this page), and to internal business pages discussing the context and
+> requirements.
 > This helps them with navigation.
 
 > [!NOTE]
@@ -18,13 +19,17 @@
 
 ## Understanding this page
 
-This page documents the REST API endpoints available for Toppings.
+This page documents the REST API endpoints available for **Toppings**.
+
 The endpoint documentation has technical details for you as the consumer of the API, and also additional information:
 - How do you want to present your endpoints?
-- What is the delivery status of an endpoint? Can I use this now?
+- What is the deployment status of an endpoint? Can I use this now?
 - What side effects or complications might impact me?
 
-### Endpoints are marked for their status
+> [!NOTE]
+> This example API documentation does _not_ show how to start a pizza.
+
+### Endpoints are marked for their deployment status
 
 - ✳️ fully implemented and should just work (all uses unless noted)
 - ✴️ implemented but with limitations (see endpoint description)
@@ -125,7 +130,8 @@ This is a general summary for HTTP response status codes.
 > A one-line usage for the endpoint together with a marker on its development
 > status.
 > This helps API consumers know which endpoints are ready for use, and helps
-> the delivery team see which endpoints are in progress or upcoming for work.
+> the development team see which endpoints are in progress or upcoming for
+> work.
 > It also gives a "preview" to API consumers of what endpoints may be
 > available in the future.
 
