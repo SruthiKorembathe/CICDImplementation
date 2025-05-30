@@ -108,8 +108,7 @@ readers with "REST API" and "JSON Models" wiki documentation pages.
   documentation
 
 > [!NOTE]
-> The above `[[Page Name]]` syntax uses GitHub markdown features (as does this
-> `[!NOTE]`).
+> The `[[some page title]]` syntax uses GitHub markdown features.
 > In vanilla Markdown the page links are:
 > * [Template REST API](./Template-REST-API.md)
 > * [Template JSON Models](./Template-JSON-Models.md)
