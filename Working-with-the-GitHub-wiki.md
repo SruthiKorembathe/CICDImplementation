@@ -48,8 +48,8 @@ When you edit in the GitHub UI, the default commit message looks like:
 
 > Updated \<a page name such as "HOME"\> (markdown)
 
-You can give a commit message in the UI at the bottom of the page:<br/>
-![GitHub showing where you can have a Git commit message while using the UI](https://github.com/binkley/wiki-docs/assets/186421/e6ec089f-cc8e-4ab6-843a-a2daeacf41fa "GitHub showing where you can have a Git commit message while using the UI")
+You can give a commit message in the UI at the bottom of the page:<br>
+![GitHub showing where you can have a Git commit message while using the UI](commit-message.png "GitHub showing where you can have a Git commit message while using the UI")
 
 And you can always give a meaningful commit message when working locally with
 `git commit -m <your message>` (and then pushing your change).
@@ -70,13 +70,8 @@ with the Markdown editor and with page preview.
 Mermaid is the text-based diagramming tool used in GitHub wikis among other
 places.
 
-Here is a sample screenshot:
+Here is a sample screenshot:<br>
 ![Sample screenshot of Mermaid plugin](jetbrains-screenshot.png "Sample screenshot of Mermaid plugin")
-<!--
-![Sample screenshot of Mermaid
-plugin](https://github.com/binkley/wiki-docs/assets/186421/2c2cd321-fe83-439d-9db3-e98564609160
-"Sample screenshot of Mermaid plugin")
--->
 
 ## Adding images and screenshots to a wiki page
 
@@ -85,10 +80,11 @@ directly into the edit box.
 The UI automatically uploads the image, and inserts a link for you.
 However, the uploaded go into an "assets" area not part of the wiki repository,
 
-There is an alternative: Add your image to your wiki repository, and
-link directly with `![image](./filename.extension)`.
+There is an _preferred_ alternative:
+Add your image to your wiki repository, and link directly with
+`![image](./filename.extension)`.
 This also has the benefit of keeping your images as content in under source
-control.
+control, and supporting external tools such as converting your wiki to PDF.
 
 ## Changing the right-hand navigation sidebar in GitHub UI
 
@@ -97,11 +93,11 @@ GitHub lets you do this by customizing the right-hand navigation _Sidebar_
 that appears in the GitHub UI.
 
 To edit the Sidebar in the GitHub UI, use the "crayon" icon:<br/>
-![Showing in GitHub how to edit the sidebar](https://github.com/binkley/wiki-docs/assets/186421/9e4c088f-3aef-42ca-b137-e769d65a0872 "Showing in GitHub how to edit the sidebar")
+![Showing in GitHub how to edit the sidebar](edit-crayon.png "Showing in GitHub how to edit the sidebar")
 
 If you customize the sidebar, readers can still find all pages&mdash;even
 those you did not list:<br/>
-![Showing in GitHub how to find all pages when you have a custom sidebar](https://github.com/binkley/wiki-docs/assets/186421/decb1b18-0318-44d2-bb39-d48c9aa8a570 "Showing in GitHub how to find all pages when you have a custom sidebar")
+![Showing in GitHub how to find all pages when you have a custom sidebar](custom-sidebar.png "Showing in GitHub how to find all pages when you have a custom sidebar")
 
 Locally the right-hand navigation sidebar is the `_Sidebar.md` file in your
 wiki repo clone, and editing this file locally works as expected; however, you

@@ -11,7 +11,7 @@ tools provide.
 > experience is better as you toggle between "Write" (edit) and "Preview"
 > modes:
 
-![image](https://github.com/binkley/wiki-docs/assets/186421/8b41ba18-338a-4311-9ec7-8668cd8a1003)
+![Editing Examples of diagramming](example-diagramming.png "Editing Examples of diagramming")
 
 ## OK, but where I can learn more about diagramming in my wiki?
 
