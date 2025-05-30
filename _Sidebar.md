@@ -10,8 +10,8 @@ wiki, or you can use the "crayon" icon to edit in the UI.
 > "Home" page (`Home.md`): you cannot rename this page, and GitHub uses the
 > page name for the title at the page top.
 
-Use `[[Page title]]` with double brackets when referencing pages here in the
-sidebar or elsewhere in your wiki pages.
+Use `[[some page title]]` with double brackets when referencing pages here in
+the sidebar or elsewhere in your wiki pages.
 And use the `#`, `##`, etc. style in Markdown to format the sidebar.
 
 > [!IMPORTANT]
