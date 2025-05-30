@@ -71,10 +71,12 @@ Mermaid is the text-based diagramming tool used in GitHub wikis among other
 places.
 
 Here is a sample screenshot:
-
+![Sample screenshot of Mermaid plugin](jetbrains-screenshot.png "Sample screenshot of Mermaid plugin")
+<!--
 ![Sample screenshot of Mermaid
 plugin](https://github.com/binkley/wiki-docs/assets/186421/2c2cd321-fe83-439d-9db3-e98564609160
 "Sample screenshot of Mermaid plugin")
+-->
 
 ## Adding images and screenshots to a wiki page
 
