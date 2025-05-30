@@ -1,3 +1,5 @@
+# GitHub Wiki Documentation
+
 > Welcome to the wiki-docs wiki!
 
 The above is the default starting content when you use the "wiki" feature in
