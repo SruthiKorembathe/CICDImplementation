@@ -1,0 +1,70 @@
+replicaCount: 4
+replicaCount-task: 4
+
+image:
+  repository: ishanthakur1998/identity
+  pullPolicy: IfNotPresent
+  tag: localv4
+
+imagePullSecrets:
+  - name: regcred
+
+service:
+  type: NodePort
+  port: 8080
+
+db:
+  host: localhost:3309
+  user: root
+  password: root
+  name: identityiq
+
+sqlConfigMap: db-init-sql
+
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 256Mi
+  limits:
+    cpu: 500m
+    memory: 1Gi
+
+hpa:
+  ui:
+    minReplicas: 2
+    maxReplicas: 10
+    targetCPUUtilizationPercentage: 70
+    businessHours:
+      minReplicas: 3
+      maxReplicas: 15
+    offHours:
+      minReplicas: 2
+      maxReplicas: 5
+  task:
+    minReplicas: 2
+    maxReplicas: 8
+    targetCPUUtilizationPercentage: 70
+    businessHours:
+      minReplicas: 3
+      maxReplicas: 10
+    offHours:
+      minReplicas: 2
+      maxReplicas: 3
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+initContainer:
+  image: "ishanthakur1998/identity:localv4"
+  env:
+    SQL_DEPLOYMENT: "yes"     # Harness variable: yes/no
+    FIRST_DEPLOYMENT: "yes"   # Harness variable: yes for initial, no for updates
+    DB_HOST: "host.docker.internal"
+    DB_PORT: "3310"
+    DB_USER: "root"
+    DB_PASS: "root"
+    DB_NAME: "identityiq"

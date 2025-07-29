@@ -1,0 +1,31 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ include "wellsfargo.fullname" . }}-db-init
+  annotations:
+    "helm.sh/hook": pre-install,pre-upgrade
+    "helm.sh/hook-weight": "-1"
+    "helm.sh/hook-delete-policy": before-hook-creation,hook-succeeded
+spec:
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+      - name: db-init
+        image: {{ .Values.initContainer.image }}
+        env:
+          - name: SQL_DEPLOYMENT
+            value: "{{ .Values.initContainer.env.SQL_DEPLOYMENT }}"
+          - name: FIRST_DEPLOYMENT
+            value: "{{ .Values.initContainer.env.FIRST_DEPLOYMENT }}"
+          - name: DB_HOST
+            value: "{{ .Values.initContainer.env.DB_HOST }}"
+          - name: DB_PORT
+            value: "{{ .Values.initContainer.env.DB_PORT }}"
+          - name: DB_USER
+            value: "{{ .Values.initContainer.env.DB_USER }}"
+          - name: DB_PASS
+            value: "{{ .Values.initContainer.env.DB_PASS }}"
+          - name: DB_NAME
+            value: "{{ .Values.initContainer.env.DB_NAME }}"
+        command: ["/entrypoint-db.sh"]

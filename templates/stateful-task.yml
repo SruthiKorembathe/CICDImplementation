@@ -1,0 +1,67 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: {{ include "wellsfargo-task.fullname" . }}
+spec:
+  serviceName: {{ include "wellsfargo-task.fullname" . }}
+  replicas: {{ .Values.replicaCount }}
+  podManagementPolicy: Parallel
+  updateStrategy:
+    type: RollingUpdate
+  selector:
+    matchLabels:
+      {{- include "wellsfargo.selectorLabels" . | nindent 6 }}
+      component: task
+  template:
+    metadata:
+      labels:
+        {{- include "wellsfargo.selectorLabels" . | nindent 8 }}
+        component: task
+      annotations:
+        # Ensure pods use host network to maintain same network behavior as Deployment
+        # This helps maintain connectivity to external resources like EC2 MySQL
+        "kubernetes.io/vpc-shared": "true"
+    spec:
+      imagePullSecrets:
+        {{- toYaml .Values.imagePullSecrets | nindent 8 }}
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: JAVA_OPTS
+              value: "-Diiq.hostname=$(POD_NAME) -Diiq.tasknode=true"
+            - name: SQL_DEPLOYMENT
+              value: "no"
+            - name: FIRST_DEPLOYMENT
+              value: "no"
+          ports:
+            - containerPort: 8080
+              name: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 60
+            periodSeconds: 10
+            timeoutSeconds: 5
+            successThreshold: 1
+            failureThreshold: 3
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+      {{- with .Values.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}

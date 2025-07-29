@@ -1,0 +1,76 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: {{ include "wellsfargo.fullname" . }}
+spec:
+  serviceName: {{ include "wellsfargo.fullname" . }}
+  replicas: {{ .Values.replicaCount }}
+  podManagementPolicy: Parallel
+  updateStrategy:
+    type: RollingUpdate
+    rollingUpdate:
+      partition: 2
+  selector:
+    matchLabels:
+      {{- include "wellsfargo.selectorLabels" . | nindent 6 }}
+      component: ui
+  template:
+    metadata:
+      labels:
+        {{- include "wellsfargo.selectorLabels" . | nindent 8 }}
+        component: ui
+      annotations:
+        # Ensure pods use host network to maintain same network behavior as Deployment
+        # This helps maintain connectivity to external resources like EC2 MySQL
+        "kubernetes.io/vpc-shared": "true"
+    spec:
+      imagePullSecrets:
+        {{- toYaml .Values.imagePullSecrets | nindent 8 }}
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          command: ["/entrypoint-app.sh"]
+          env:
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: JAVA_OPTS
+              value: "-Diiq.hostname=$(POD_NAME) -Diiq.uinode=true"
+            - name: DB_HOST
+              value: "{{ .Values.initContainer.env.DB_HOST }}"
+            - name: DB_PORT
+              value: "{{ .Values.initContainer.env.DB_PORT }}"
+            - name: DB_USER
+              value: "{{ .Values.initContainer.env.DB_USER }}"
+            - name: DB_PASS
+              value: "{{ .Values.initContainer.env.DB_PASS }}"
+            - name: DB_NAME
+              value: "{{ .Values.initContainer.env.DB_NAME }}"
+          ports:
+            - containerPort: 8080
+              name: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 60
+            periodSeconds: 10
+            timeoutSeconds: 5
+            successThreshold: 1
+            failureThreshold: 3
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+      {{- with .Values.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
